@@ -26,7 +26,8 @@
     "aws-sdk": "2.0.x",
     "hurryup": "0.0.x",
     "brasslet": "0.0.x",
-    "async": "~0.2.10"
+    "async": "~0.2.10",
+    "underscore": "~1.5.2"
   },
   "devDependencies": {
     "expect.js": "~0.2.0",
