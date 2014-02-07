@@ -9,4 +9,4 @@ var aws = awsm({
 });
 
 
-aws.regions.findOne({ name: "us-east-1" })
+aws.ec2.regions.findOne({ name: "us-east-1" })

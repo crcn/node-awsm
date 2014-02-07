@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "expect.js": "~0.2.0",
-    "mocha": "~1.17.1"
+    "mocha": "~1.17.1",
+    "istanbul": "~0.2.4"
   }
 }
