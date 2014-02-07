@@ -1,4 +1,5 @@
-node-awsm
-=========
+Awsm provides a mongodb-like interface for controlling various AWS services such as `ec2`, `route53`, and `cloudfront`.
 
-awesome AWS library
+## API
+
+TODO
