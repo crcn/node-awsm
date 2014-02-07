@@ -14,5 +14,21 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/crcn/node-awsm/issues"
+  },
+  "dependencies": {
+    "protoclass": "0.0.x",
+    "bindable": "0.5.x",
+    "toarray": "0.0.x",
+    "outcome": "0.0.x",
+    "sift": "0.0.x",
+    "comerr": "0.0.x",
+    "colors": "0.6.x",
+    "aws-sdk": "2.0.x",
+    "hurryup": "0.0.x",
+    "flatten": "0.0.x"
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "mocha": "~1.17.1"
   }
 }
