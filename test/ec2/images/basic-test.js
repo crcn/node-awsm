@@ -7,6 +7,8 @@ describe("ec2/images#", function () {
 
   var aws, region, instance;
 
+  return it("", function() {})
+
   before(function (next) {
     aws = awsm(helpers.config);
     aws.ec2.regions.findOne("us-east-1", outcome.e(next).s(function (model) {
