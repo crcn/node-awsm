@@ -1,3 +1,8 @@
 module.exports = {
-  config: require("./config")
+  config: require("./config"),
+  images: {
+    ubuntu: {
+      _id: null
+    }
+  }
 };
