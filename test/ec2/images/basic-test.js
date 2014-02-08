@@ -5,17 +5,34 @@ expect   = require("expect.js");
 
 describe("ec2/images#", function () {
 
-  var aws, region;
+  var aws, region, instance;
 
   before(function (next) {
     aws = awsm(helpers.config);
-    aws.ec2.find("us-east-1", outcome.e(next).s(function (model) {
+    aws.ec2.regions.findOne("us-east-1", outcome.e(next).s(function (model) {
       region = model;
       next();
     }));
   });
 
+  // create the image from an instance
+  before(function (next) {
+    region.instances.create({ imageId: helpers.images.ubuntu._id }, outcome.e(next).s(function (model) {
+      instance = model;
+      instance.stop(function () {
+        instance.createImage(next)
+      });
+    }));
+  });
+
+  after(function (next) {
+    instance.destroy(next);
+  });
+
   it("can list all available images", function (next) {
-    // region.instances.create({ flavor: "t1.micro" })
+    console.log("CREATE");
+    region.images.all(function () {
+      next();
+    })
   });
 });

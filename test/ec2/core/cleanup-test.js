@@ -9,6 +9,10 @@ after(function (next) {
 
     function removeInstances (next) {
       aws.ec2.instances.all(destroyAll(next));
+    },
+
+    function removeImages (next) {
+      aws.ec2.images.all(destroyAll(next));
     }
 
 
@@ -19,7 +23,7 @@ after(function (next) {
 function destroyAll(next) {
   return function (err, models) {
     if (err) return next(err);
-    async.eachSeries(models, function (model, next) {
+    async.eachLimit(models, 20, function (model, next) {
       model.destroy(next)
     }, next);
   }
