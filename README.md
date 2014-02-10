@@ -29,7 +29,7 @@ awsm.ec2.regions.find({ name: /^us-/ }, function (err, usRegions) {
 
 Resource collections share a common API, and are used for every object type which includes `regions`, `instances`, `images`, etc. 
 
-### collection.find(query, callback)
+#### collection.find(query, callback)
 
 Finds many resources against the target collection.
 
@@ -42,7 +42,7 @@ awsm.ec2.regions.find({ name: /^us/ }, onUsRegions);
 region.instances.find({ state: "running" }, onAllRunningInstances);
 ```
 
-### collection.findOne(query, callback)
+#### collection.findOne(query, callback)
 
 Finds one resource against a target collection.
 
@@ -91,7 +91,7 @@ awsm.ec2.instances.find({ state: "running"}, onAllRunningInstances);
 
 ## EC2 Instances
 
-### region.instances.create(options, callback)
+#### region.instances.create(options, callback)
 
 Creates a new instance.
 
@@ -106,19 +106,19 @@ region.instances.create({ imageId: "ami-a73264ce" }, function (err, instance) {
 })
 ```
 
-### instance.start(callback)
+#### instance.start(callback)
 
 starts the instance
 
-### instance.restart(callback)
+#### instance.restart(callback)
 
 restarts the instance
 
-### instance.stop(callback)
+#### instance.stop(callback)
 
 stops the instance
 
-### instance.createImage(options, callback)
+#### instance.createImage(options, callback)
 
 creates an image out of the instance
 
