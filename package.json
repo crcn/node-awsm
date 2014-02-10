@@ -22,7 +22,7 @@
     "outcome": "0.0.x",
     "sift": "0.0.12",
     "comerr": "0.0.x",
-    "colors": "0.6.x",
+    "colors": "~0.6.2",
     "aws-sdk": "2.0.x",
     "hurryup": "0.0.x",
     "brasslet": "0.0.x",
