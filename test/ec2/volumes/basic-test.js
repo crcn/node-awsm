@@ -5,7 +5,7 @@ expect   = require("expect.js");
 
 describe("ec2/volumes#", function () {
 
-  var aws, region, volume, zone;
+  var aws, region, volume, zone, instance;
 
   before(function () {
     aws = awsm(helpers.config);
@@ -23,7 +23,15 @@ describe("ec2/volumes#", function () {
       zone = zones.shift();
       next();
     })
-  })
+  });
+
+
+  before(function (next) {
+    region.instances.create({ zone: zone, type: "t1.micro" }, outcome.e(next).s(function (model) {
+      instance = model;
+      next();
+    }))
+  });
 
   it("can create a volume", function (next) {
     region.volumes.create({
@@ -33,6 +41,10 @@ describe("ec2/volumes#", function () {
       volume = model;
       next();
     }));
+  });
+
+  it("can be attached to an instance", function (next) {
+
   });
 
 
