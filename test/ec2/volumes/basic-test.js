@@ -55,10 +55,10 @@ describe("ec2/volumes#", function () {
 
   it("can be detached from an instance", function (next) {
     volume.detach(function () {
-      instance.getVolumes(function (volumes) {
+      instance.getVolumes(outcome.e(next).s(function (volumes) {
         expect(volumes.length).to.be(1);
         next();
-      });
+      }));
     });
   });
 
