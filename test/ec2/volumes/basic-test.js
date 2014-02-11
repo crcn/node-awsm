@@ -27,7 +27,7 @@ describe("ec2/volumes#", function () {
 
 
   before(function (next) {
-    region.instances.create({ zone: zone, type: "t1.micro" }, outcome.e(next).s(function (model) {
+    region.instances.create({ zone: zone, type: "t1.micro", imageId: helpers.images.ubuntu._id }, outcome.e(next).s(function (model) {
       instance = model;
       next();
     }))
@@ -44,9 +44,23 @@ describe("ec2/volumes#", function () {
   });
 
   it("can be attached to an instance", function (next) {
-
+    var o = outcome.e(next);
+    volume.attach(instance, o.s(function () {
+      instance.getVolumes(o.s(function (volumes) {
+        expect(volumes.length).to.be(2);
+        next();
+      }));
+    }));
   });
 
+  it("can be detached from an instance", function (next) {
+    volume.detach(function () {
+      instance.getVolumes(function (volumes) {
+        expect(volumes.length).to.be(1);
+        next();
+      });
+    });
+  });
 
   it("can create a snapshot", function (next) {
     volume.createSnapshot(outcome.e(next).s(function (snapshot) {
