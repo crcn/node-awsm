@@ -5,7 +5,7 @@ expect   = require("expect.js");
 
 describe("ec2/instances#", function () {
 
-  var aws, region, instance, securityGroup;
+  var aws, region, instance, securityGroup, keyPair;
 
   before(function (next) {
     aws = awsm(helpers.config);
@@ -22,8 +22,19 @@ describe("ec2/instances#", function () {
     }));
   });
 
+  before(function (next) {
+    region.keyPairs.create("test-keypair", outcome.e(next).s(function (model) {
+      keyPair = model;
+      next();
+    }));
+  });
+
   after(function (next) {
     securityGroup.destroy(next);
+  });
+
+  after(function (next) {
+    keyPair.destroy(next);
   });
 
   it("can create an instance with a security group", function (next) {
@@ -36,6 +47,14 @@ describe("ec2/instances#", function () {
   });
 
 
+  it("can create an instance with a keypair", function (next) {
+    region.instances.create({ type: "t1.micro", imageId: helpers.images.ubuntu._id, keyPair: keyPair }, outcome.e(next).s(function (model) {
+      console.log(JSON.stringify(model.get("source"), null, 2));
+      model.destroy(next);
+    }));
+  })
+
+
   it("can get the security groups of a given instance", function (next) {
     instance.getSecurityGroups(outcome.e(next).s(function (securityGroups) {
       expect(securityGroups.length).to.be(1);
@@ -43,26 +62,6 @@ describe("ec2/instances#", function () {
       next();
     }));
   });
-
-  it("can create an instance with many security groups", function (next) {
-    region.instances.create({ flavor: "t1.micro", imageId: helpers.images.ubuntu._id, securityGroups: [securityGroup] }, outcome.e(next).s(function (instance) {
-      instance.destroy(next)
-    }));
-  });
-
-  it("can create an instance with one security group id", function (next) {
-    region.instances.create({ flavor: "t1.micro", imageId: helpers.images.ubuntu._id, securityGroupId: securityGroup.get("_id") }, outcome.e(next).s(function (instance) {
-      instance.destroy(next)
-    }));
-  });
-
-
-  it("can create an instance with many security group ids", function (next) {
-    region.instances.create({ flavor: "t1.micro", imageId: helpers.images.ubuntu._id, securityGroupIds: [securityGroup.get("_id")] }, outcome.e(next).s(function (instance) {
-      instance.destroy(next);
-    }));
-  });
-
 
 
   it("can be stopped", function (next) {
