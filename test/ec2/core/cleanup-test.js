@@ -5,8 +5,6 @@ async       = require("async");
 after(function (next) {
   var aws = awsm(helpers.config);
 
-  return next();
-
   async.waterfall([
 
     function removeInstances (next) {
