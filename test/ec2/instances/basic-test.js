@@ -16,7 +16,7 @@ describe("ec2/instances#", function () {
   });
 
   before(function (next) {
-    region.securityGroups.create({ name: "test-sg-1" }, outcome.e(next).s(function (model) {
+    region.securityGroups.create({ name: "test-sg-" + Date.now() }, outcome.e(next).s(function (model) {
       securityGroup = model;
       next();
     }));
@@ -24,19 +24,23 @@ describe("ec2/instances#", function () {
 
   after(function (next) {
     securityGroup.destroy(next);
-  })
+  });
 
-  it("can create an instance", function (next) {
-    region.instances.create({ type: "t1.micro", imageId: helpers.images.ubuntu._id }, outcome.e(next).s(function (instance) {
-      instance = instance;
-      console.log(instance.context())
+  it("can create an instance with a security group", function (next) {
+    region.instances.create({ type: "t1.micro", imageId: helpers.images.ubuntu._id, securityGroup: securityGroup }, outcome.e(next).s(function (model) {
+      instance = model;
+      console.log(JSON.stringify(instance.context(), null, 2));
       expect(instance.get("type")).to.be("t1.micro");
+      next();
     }));
   });
 
-  it("can create an instance with one security group", function (next) {
-    region.instances.create({ flavor: "t1.micro", imageId: helpers.images.ubuntu._id, securityGroup: securityGroup }, outcome.e(next).s(function (instance) {
-      instance.destroy(next)
+
+  it("can get the security groups of a given instance", function (next) {
+    instance.getSecurityGroups(outcome.e(next).s(function (securityGroups) {
+      expect(securityGroups.length).to.be(1);
+      expect(securityGroups[0].get("_id")).to.be(securityGroup.get("_id"));  
+      next();
     }));
   });
 
@@ -55,9 +59,11 @@ describe("ec2/instances#", function () {
 
   it("can create an instance with many security group ids", function (next) {
     region.instances.create({ flavor: "t1.micro", imageId: helpers.images.ubuntu._id, securityGroupIds: [securityGroup.get("_id")] }, outcome.e(next).s(function (instance) {
-      instance.destroy(next)
+      instance.destroy(next);
     }));
   });
+
+
 
   it("can be stopped", function (next) {
     instance.stop(next);

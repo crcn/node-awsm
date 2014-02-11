@@ -28,7 +28,8 @@
     "brasslet": "0.0.x",
     "async": "~0.2.10",
     "underscore": "~1.5.2",
-    "memoizee": "~0.2.6"
+    "memoizee": "~0.2.6",
+    "traverse": "~0.6.6"
   },
   "devDependencies": {
     "expect.js": "~0.2.0",
