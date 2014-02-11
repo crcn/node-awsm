@@ -22,6 +22,10 @@ describe("ec2/addresses#", function () {
     });
   });
 
+  after(function (next) {
+    instance.destroy(next);
+  });
+
   it("can be allocated", function (next) {
     region.addresses.create(outcome.e(next).s(function (model) {
       address = model;
@@ -30,11 +34,12 @@ describe("ec2/addresses#", function () {
   });
 
   it("can be associated with an instance", function (next) {
-    address.associate(instance, outcome.e(next).s(function () {
+    address.associate(instance, outcome.e(next).s(function (address) {
       instance.getAddress(function (err, address2) {
         expect(address.get("_id")).to.be(address2.get("_id"));
         address.getInstance(function (err, instance2) {
           expect(instance.get("_id")).to.be(instance2.get("_id"));
+          expect(instance.get("addresses.publicIp")).to.equal(address.get("publicIp"));
           next();
         })
       });

@@ -49,7 +49,7 @@ describe("ec2/images#", function () {
   it("can remove a tag", function (next) {
     image.tags.update({ test: undefined }, outcome.e(next).s(function () {
       expect(image.get("tags.test")).to.be(undefined);
-      next();
+      image.tags.update({ test: "test-tag" }, next);
     }));
   });
 
@@ -58,6 +58,7 @@ describe("ec2/images#", function () {
       instance.destroy(next);
     }));
   });
+
 
   it("can migrate to another region with just a string", function (next) {
     image.migrate(["us-west-1"], outcome.e(next).s(function (images) {
