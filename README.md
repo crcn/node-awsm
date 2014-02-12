@@ -158,6 +158,10 @@ returns the image used to create the instance
 
 returns the keypair assigned to the instance
 
+#### tags instance.tags
+
+instance tags collection
+
 #### instance.destroy(callback)
 
 destroys the instance
@@ -197,6 +201,10 @@ detaches from an instance
 #### address.getInstance(callback)
 
 returns the instance associated with the address
+
+#### tags address.tags
+
+address tags collection
 
 #### address.destroy(callback)
 
