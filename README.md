@@ -17,7 +17,7 @@ Initializes the awsm library.
 
 ## Resource Collections
 
-Resource collections share a common API, and are used for every object type which includes `regions`, `instances`, `images`, etc. 
+Resource collections share a common API, and are used for every object type which includes `regions`, `instances`, `images`, `securityGroups`, and `keyPairs`. 
 
 #### collection.find(query, callback)
 
