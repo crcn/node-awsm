@@ -1,0 +1,1480 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'link', 'brasslet' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose install where,what [ '/usr/local/lib', [ 'brasslet' ] ]
+5 warn package.json dart@0.0.1 No repository field.
+6 warn package.json dojo-teacher@0.0.0 No repository field.
+7 warn package.json dojo-teacher@0.0.0 No README data
+8 warn package.json growl@1.7.0 No repository field.
+9 warn package.json nave@0.4.3 No repository field.
+10 warn package.json requirejs@1.0.8 No repository field.
+11 warn package.json saucelauncher@0.0.4 No repository field.
+12 warn package.json static@2.0.0 No repository field.
+13 warn package.json volo@0.2.9 No repository field.
+14 warn package.json vows@0.7.0 No repository field.
+15 verbose cache add [ 'brasslet', null ]
+16 verbose cache add name=undefined spec="brasslet" args=["brasslet",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'brasslet',
+17 verbose parsed url   path: 'brasslet',
+17 verbose parsed url   href: 'brasslet' }
+18 silly lockFile 583deb6c-brasslet brasslet
+19 verbose lock brasslet /Users/craig/.npm/583deb6c-brasslet.lock
+20 silly lockFile 583deb6c-brasslet brasslet
+21 silly lockFile 583deb6c-brasslet brasslet
+22 verbose addNamed [ 'brasslet', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 5e6e1830-brasslet brasslet@
+25 verbose lock brasslet@ /Users/craig/.npm/5e6e1830-brasslet.lock
+26 warn package.json comerr@0.0.6 No README data
+27 warn package.json dojo@1.0.1 No repository field.
+28 warn package.json mojo-model@0.1.1 No README data
+29 warn package.json student.classdojo.com@0.0.2 scripts['server'] should probably be scripts['start'].
+30 silly addNameRange { name: 'brasslet', range: '*', hasData: false }
+31 verbose url raw brasslet
+32 verbose url resolving [ 'http://registry.npmjs.org/', './brasslet' ]
+33 verbose url resolved http://registry.npmjs.org/brasslet
+34 info trying registry request attempt 1 at 16:49:04
+35 verbose etag "AF6C3FGYNLUFOAKPFF065RAW2"
+36 http GET http://registry.npmjs.org/brasslet
+37 http 304 http://registry.npmjs.org/brasslet
+38 silly registry.get cb [ 304,
+38 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+38 silly registry.get     etag: '"AF6C3FGYNLUFOAKPFF065RAW2"',
+38 silly registry.get     'content-length': '0',
+38 silly registry.get     'accept-ranges': 'bytes',
+38 silly registry.get     via: '1.1 varnish',
+38 silly registry.get     age: '0',
+38 silly registry.get     'cache-control': 'max-age=1',
+38 silly registry.get     date: 'Wed, 12 Feb 2014 00:49:04 GMT',
+38 silly registry.get     connection: 'keep-alive',
+38 silly registry.get     'x-served-by': 'cache-v41-ASH, cache-lax1429-LAX',
+38 silly registry.get     'x-cache': 'MISS, MISS',
+38 silly registry.get     'x-cache-hits': '0, 0',
+38 silly registry.get     'x-timer': 'S1392166144.906829119,VS0,VS40,VE54,VE86' } ]
+39 verbose etag brasslet from cache
+40 silly addNameRange number 2 { name: 'brasslet', range: '*', hasData: true }
+41 silly addNameRange versions [ 'brasslet', [ '0.0.17' ] ]
+42 verbose addNamed [ 'brasslet', '0.0.17' ]
+43 verbose addNamed [ '0.0.17', '0.0.17' ]
+44 silly lockFile d22b460a-brasslet-0-0-17 brasslet@0.0.17
+45 verbose lock brasslet@0.0.17 /Users/craig/.npm/d22b460a-brasslet-0-0-17.lock
+46 silly lockFile d22b460a-brasslet-0-0-17 brasslet@0.0.17
+47 silly lockFile d22b460a-brasslet-0-0-17 brasslet@0.0.17
+48 silly lockFile 5e6e1830-brasslet brasslet@
+49 silly lockFile 5e6e1830-brasslet brasslet@
+50 silly resolved [ { name: 'brasslet',
+50 silly resolved     version: '0.0.17',
+50 silly resolved     description: 'Built originally for [node-ectwo](https://github.com/crcn/node-ectwo)',
+50 silly resolved     main: './lib/index.js',
+50 silly resolved     scripts: { test: 'mocha --compilers coffee:coffee-script' },
+50 silly resolved     repository: { type: 'git', url: 'git://github.com/crcn/irons.js.git' },
+50 silly resolved     author: '',
+50 silly resolved     license: 'BSD',
+50 silly resolved     readmeFilename: 'README.md',
+50 silly resolved     gitHead: 'dba2e6e6962aefc8cf77dca8f66c6573f84f1c49',
+50 silly resolved     devDependencies:
+50 silly resolved      { 'expect.js': '~0.2.0',
+50 silly resolved        mocha: '~1.12.0',
+50 silly resolved        'coffee-script': '~1.6.3',
+50 silly resolved        async: '~0.2.9',
+50 silly resolved        sift: '0.0.12' },
+50 silly resolved     dependencies:
+50 silly resolved      { async: '~0.2.9',
+50 silly resolved        flatstack: '0.0.7',
+50 silly resolved        toarray: '0.0.1',
+50 silly resolved        sift: '0.0.12',
+50 silly resolved        'type-component': '0.0.1',
+50 silly resolved        flatten: '0.0.x',
+50 silly resolved        tq: '0.2.x',
+50 silly resolved        underscore: '~1.5.2' },
+50 silly resolved     readme: 'Built originally for [node-ectwo](https://github.com/crcn/node-ectwo)\n\n```coffeescript\n\n\nclass Regions\n\n  ###\n  ###\n  \n  findOne: (search, next) ->\n    # find a region, and return it\n  \n\nclass Image\n  \n  ###\n  ###\n  \n  createInstance: (options, next) ->\n    # create, and return instance\n    \n  ###\n  ###\n  \n  migrate: (options, next) ->\n    # migrate to a new region, and return the image\n    \nclass Instance\n  \n  ###\n  ###\n  \n  stop: (next) ->\n    # stop the instance\n    \n  ###\n  ###\n  \n  start: (next) ->\n    #start the instanc\n    \n\n```\n\nIronify:\n\n```coffeescript\nirons = require("irons")()\nectwo = require("ectwo")()\n\nirons.add("instances", {\n  "findOne": "instance"\n}).add("instance", {\n  "shutdown": {\n    type: "image",\n    \n  },\n  "createImage": "image"\n}).add("image", {\n  "migrate": "image",\n  "createInstance": "instance"\n})\n\nirons.wrap(ectwo.instances, "instances")\n\n\n\n\n# shutdown one instance, migrate it to a new region, and start it up again.\nproc = ectwo.\n  instances.\n  findOne({ tags: { type: "mongodb" } }).\n  shutdown().\n  migrate({ region: ectwo.regions.findOne({ name: /us-*/}) }).\n  createInstance().\n  start()\n\n```\n',
+50 silly resolved     bugs: { url: 'https://github.com/crcn/irons.js/issues' },
+50 silly resolved     _id: 'brasslet@0.0.17',
+50 silly resolved     _from: 'brasslet@' } ]
+51 info install brasslet@0.0.17 into /usr/local/lib
+52 info installOne brasslet@0.0.17
+53 info /usr/local/lib/node_modules/brasslet unbuild
+54 verbose tar unpack /Users/craig/.npm/brasslet/0.0.17/package.tgz
+55 silly lockFile 5d76afbf--local-lib-node-modules-brasslet tar:///usr/local/lib/node_modules/brasslet
+56 verbose lock tar:///usr/local/lib/node_modules/brasslet /Users/craig/.npm/5d76afbf--local-lib-node-modules-brasslet.lock
+57 silly lockFile d9ada3aa--npm-brasslet-0-0-17-package-tgz tar:///Users/craig/.npm/brasslet/0.0.17/package.tgz
+58 verbose lock tar:///Users/craig/.npm/brasslet/0.0.17/package.tgz /Users/craig/.npm/d9ada3aa--npm-brasslet-0-0-17-package-tgz.lock
+59 silly gunzTarPerm modes [ '755', '644' ]
+60 silly gunzTarPerm extractEntry package.json
+61 silly gunzTarPerm extractEntry .npmignore
+62 silly gunzTarPerm extractEntry README.md
+63 silly gunzTarPerm extractEntry lib/callChain.js
+64 silly gunzTarPerm extractEntry lib/index.js
+65 silly gunzTarPerm extractEntry lib/multiChain.js
+66 silly gunzTarPerm extractEntry makefile
+67 silly gunzTarPerm extractEntry src/callChain.coffee
+68 silly gunzTarPerm extractEntry src/index.coffee
+69 silly gunzTarPerm extractEntry src/multiChain.coffee
+70 silly gunzTarPerm extractEntry test/.npmignore
+71 silly gunzTarPerm extractEntry test/fasten-test.coffee
+72 silly lockFile 5d76afbf--local-lib-node-modules-brasslet tar:///usr/local/lib/node_modules/brasslet
+73 silly lockFile 5d76afbf--local-lib-node-modules-brasslet tar:///usr/local/lib/node_modules/brasslet
+74 silly lockFile d9ada3aa--npm-brasslet-0-0-17-package-tgz tar:///Users/craig/.npm/brasslet/0.0.17/package.tgz
+75 silly lockFile d9ada3aa--npm-brasslet-0-0-17-package-tgz tar:///Users/craig/.npm/brasslet/0.0.17/package.tgz
+76 info preinstall brasslet@0.0.17
+77 verbose readDependencies using package.json deps
+78 verbose readDependencies using package.json deps
+79 verbose cache add [ 'async@~0.2.9', null ]
+80 verbose cache add name=undefined spec="async@~0.2.9" args=["async@~0.2.9",null]
+81 verbose parsed url { protocol: null,
+81 verbose parsed url   slashes: null,
+81 verbose parsed url   auth: null,
+81 verbose parsed url   host: null,
+81 verbose parsed url   port: null,
+81 verbose parsed url   hostname: null,
+81 verbose parsed url   hash: null,
+81 verbose parsed url   search: null,
+81 verbose parsed url   query: null,
+81 verbose parsed url   pathname: 'async@~0.2.9',
+81 verbose parsed url   path: 'async@~0.2.9',
+81 verbose parsed url   href: 'async@~0.2.9' }
+82 verbose cache add name="async" spec="~0.2.9" args=["async","~0.2.9"]
+83 verbose parsed url { protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: '~0.2.9',
+83 verbose parsed url   path: '~0.2.9',
+83 verbose parsed url   href: '~0.2.9' }
+84 verbose addNamed [ 'async', '~0.2.9' ]
+85 verbose addNamed [ null, '>=0.2.9-0 <0.3.0-0' ]
+86 silly lockFile 5d51c871-async-0-2-9 async@~0.2.9
+87 verbose lock async@~0.2.9 /Users/craig/.npm/5d51c871-async-0-2-9.lock
+88 verbose cache add [ 'flatstack@0.0.7', null ]
+89 verbose cache add name=undefined spec="flatstack@0.0.7" args=["flatstack@0.0.7",null]
+90 verbose parsed url { protocol: null,
+90 verbose parsed url   slashes: null,
+90 verbose parsed url   auth: null,
+90 verbose parsed url   host: null,
+90 verbose parsed url   port: null,
+90 verbose parsed url   hostname: null,
+90 verbose parsed url   hash: null,
+90 verbose parsed url   search: null,
+90 verbose parsed url   query: null,
+90 verbose parsed url   pathname: 'flatstack@0.0.7',
+90 verbose parsed url   path: 'flatstack@0.0.7',
+90 verbose parsed url   href: 'flatstack@0.0.7' }
+91 verbose cache add name="flatstack" spec="0.0.7" args=["flatstack","0.0.7"]
+92 verbose parsed url { protocol: null,
+92 verbose parsed url   slashes: null,
+92 verbose parsed url   auth: null,
+92 verbose parsed url   host: null,
+92 verbose parsed url   port: null,
+92 verbose parsed url   hostname: null,
+92 verbose parsed url   hash: null,
+92 verbose parsed url   search: null,
+92 verbose parsed url   query: null,
+92 verbose parsed url   pathname: '0.0.7',
+92 verbose parsed url   path: '0.0.7',
+92 verbose parsed url   href: '0.0.7' }
+93 verbose addNamed [ 'flatstack', '0.0.7' ]
+94 verbose addNamed [ '0.0.7', '0.0.7' ]
+95 silly lockFile edb9f8b2-flatstack-0-0-7 flatstack@0.0.7
+96 verbose lock flatstack@0.0.7 /Users/craig/.npm/edb9f8b2-flatstack-0-0-7.lock
+97 verbose cache add [ 'sift@0.0.12', null ]
+98 verbose cache add name=undefined spec="sift@0.0.12" args=["sift@0.0.12",null]
+99 verbose parsed url { protocol: null,
+99 verbose parsed url   slashes: null,
+99 verbose parsed url   auth: null,
+99 verbose parsed url   host: null,
+99 verbose parsed url   port: null,
+99 verbose parsed url   hostname: null,
+99 verbose parsed url   hash: null,
+99 verbose parsed url   search: null,
+99 verbose parsed url   query: null,
+99 verbose parsed url   pathname: 'sift@0.0.12',
+99 verbose parsed url   path: 'sift@0.0.12',
+99 verbose parsed url   href: 'sift@0.0.12' }
+100 verbose cache add name="sift" spec="0.0.12" args=["sift","0.0.12"]
+101 verbose parsed url { protocol: null,
+101 verbose parsed url   slashes: null,
+101 verbose parsed url   auth: null,
+101 verbose parsed url   host: null,
+101 verbose parsed url   port: null,
+101 verbose parsed url   hostname: null,
+101 verbose parsed url   hash: null,
+101 verbose parsed url   search: null,
+101 verbose parsed url   query: null,
+101 verbose parsed url   pathname: '0.0.12',
+101 verbose parsed url   path: '0.0.12',
+101 verbose parsed url   href: '0.0.12' }
+102 verbose addNamed [ 'sift', '0.0.12' ]
+103 verbose addNamed [ '0.0.12', '0.0.12' ]
+104 silly lockFile 5eea15e7-sift-0-0-12 sift@0.0.12
+105 verbose lock sift@0.0.12 /Users/craig/.npm/5eea15e7-sift-0-0-12.lock
+106 verbose cache add [ 'toarray@0.0.1', null ]
+107 verbose cache add name=undefined spec="toarray@0.0.1" args=["toarray@0.0.1",null]
+108 verbose parsed url { protocol: null,
+108 verbose parsed url   slashes: null,
+108 verbose parsed url   auth: null,
+108 verbose parsed url   host: null,
+108 verbose parsed url   port: null,
+108 verbose parsed url   hostname: null,
+108 verbose parsed url   hash: null,
+108 verbose parsed url   search: null,
+108 verbose parsed url   query: null,
+108 verbose parsed url   pathname: 'toarray@0.0.1',
+108 verbose parsed url   path: 'toarray@0.0.1',
+108 verbose parsed url   href: 'toarray@0.0.1' }
+109 verbose cache add name="toarray" spec="0.0.1" args=["toarray","0.0.1"]
+110 verbose parsed url { protocol: null,
+110 verbose parsed url   slashes: null,
+110 verbose parsed url   auth: null,
+110 verbose parsed url   host: null,
+110 verbose parsed url   port: null,
+110 verbose parsed url   hostname: null,
+110 verbose parsed url   hash: null,
+110 verbose parsed url   search: null,
+110 verbose parsed url   query: null,
+110 verbose parsed url   pathname: '0.0.1',
+110 verbose parsed url   path: '0.0.1',
+110 verbose parsed url   href: '0.0.1' }
+111 verbose addNamed [ 'toarray', '0.0.1' ]
+112 verbose addNamed [ '0.0.1', '0.0.1' ]
+113 silly lockFile ac9c907b-toarray-0-0-1 toarray@0.0.1
+114 verbose lock toarray@0.0.1 /Users/craig/.npm/ac9c907b-toarray-0-0-1.lock
+115 verbose cache add [ 'type-component@0.0.1', null ]
+116 verbose cache add name=undefined spec="type-component@0.0.1" args=["type-component@0.0.1",null]
+117 verbose parsed url { protocol: null,
+117 verbose parsed url   slashes: null,
+117 verbose parsed url   auth: null,
+117 verbose parsed url   host: null,
+117 verbose parsed url   port: null,
+117 verbose parsed url   hostname: null,
+117 verbose parsed url   hash: null,
+117 verbose parsed url   search: null,
+117 verbose parsed url   query: null,
+117 verbose parsed url   pathname: 'type-component@0.0.1',
+117 verbose parsed url   path: 'type-component@0.0.1',
+117 verbose parsed url   href: 'type-component@0.0.1' }
+118 verbose cache add name="type-component" spec="0.0.1" args=["type-component","0.0.1"]
+119 verbose parsed url { protocol: null,
+119 verbose parsed url   slashes: null,
+119 verbose parsed url   auth: null,
+119 verbose parsed url   host: null,
+119 verbose parsed url   port: null,
+119 verbose parsed url   hostname: null,
+119 verbose parsed url   hash: null,
+119 verbose parsed url   search: null,
+119 verbose parsed url   query: null,
+119 verbose parsed url   pathname: '0.0.1',
+119 verbose parsed url   path: '0.0.1',
+119 verbose parsed url   href: '0.0.1' }
+120 verbose addNamed [ 'type-component', '0.0.1' ]
+121 verbose addNamed [ '0.0.1', '0.0.1' ]
+122 silly lockFile 92cc6d12-type-component-0-0-1 type-component@0.0.1
+123 verbose lock type-component@0.0.1 /Users/craig/.npm/92cc6d12-type-component-0-0-1.lock
+124 silly addNameRange { name: 'async', range: '>=0.2.9-0 <0.3.0-0', hasData: false }
+125 verbose cache add [ 'flatten@0.0.x', null ]
+126 verbose cache add name=undefined spec="flatten@0.0.x" args=["flatten@0.0.x",null]
+127 verbose parsed url { protocol: null,
+127 verbose parsed url   slashes: null,
+127 verbose parsed url   auth: null,
+127 verbose parsed url   host: null,
+127 verbose parsed url   port: null,
+127 verbose parsed url   hostname: null,
+127 verbose parsed url   hash: null,
+127 verbose parsed url   search: null,
+127 verbose parsed url   query: null,
+127 verbose parsed url   pathname: 'flatten@0.0.x',
+127 verbose parsed url   path: 'flatten@0.0.x',
+127 verbose parsed url   href: 'flatten@0.0.x' }
+128 verbose cache add name="flatten" spec="0.0.x" args=["flatten","0.0.x"]
+129 verbose parsed url { protocol: null,
+129 verbose parsed url   slashes: null,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: null,
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: null,
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: '0.0.x',
+129 verbose parsed url   path: '0.0.x',
+129 verbose parsed url   href: '0.0.x' }
+130 verbose addNamed [ 'flatten', '0.0.x' ]
+131 verbose addNamed [ null, '>=0.0.0-0 <0.1.0-0' ]
+132 silly lockFile 72264997-flatten-0-0-x flatten@0.0.x
+133 verbose lock flatten@0.0.x /Users/craig/.npm/72264997-flatten-0-0-x.lock
+134 verbose cache add [ 'tq@0.2.x', null ]
+135 verbose cache add name=undefined spec="tq@0.2.x" args=["tq@0.2.x",null]
+136 verbose parsed url { protocol: null,
+136 verbose parsed url   slashes: null,
+136 verbose parsed url   auth: null,
+136 verbose parsed url   host: null,
+136 verbose parsed url   port: null,
+136 verbose parsed url   hostname: null,
+136 verbose parsed url   hash: null,
+136 verbose parsed url   search: null,
+136 verbose parsed url   query: null,
+136 verbose parsed url   pathname: 'tq@0.2.x',
+136 verbose parsed url   path: 'tq@0.2.x',
+136 verbose parsed url   href: 'tq@0.2.x' }
+137 verbose cache add name="tq" spec="0.2.x" args=["tq","0.2.x"]
+138 verbose parsed url { protocol: null,
+138 verbose parsed url   slashes: null,
+138 verbose parsed url   auth: null,
+138 verbose parsed url   host: null,
+138 verbose parsed url   port: null,
+138 verbose parsed url   hostname: null,
+138 verbose parsed url   hash: null,
+138 verbose parsed url   search: null,
+138 verbose parsed url   query: null,
+138 verbose parsed url   pathname: '0.2.x',
+138 verbose parsed url   path: '0.2.x',
+138 verbose parsed url   href: '0.2.x' }
+139 verbose addNamed [ 'tq', '0.2.x' ]
+140 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+141 silly lockFile a501cecb-tq-0-2-x tq@0.2.x
+142 verbose lock tq@0.2.x /Users/craig/.npm/a501cecb-tq-0-2-x.lock
+143 verbose url raw toarray/0.0.1
+144 verbose url resolving [ 'http://registry.npmjs.org/', './toarray/0.0.1' ]
+145 verbose url resolved http://registry.npmjs.org/toarray/0.0.1
+146 info trying registry request attempt 1 at 16:49:04
+147 http GET http://registry.npmjs.org/toarray/0.0.1
+148 silly addNameRange { name: 'flatten', range: '>=0.0.0-0 <0.1.0-0', hasData: false }
+149 verbose cache add [ 'underscore@~1.5.2', null ]
+150 verbose cache add name=undefined spec="underscore@~1.5.2" args=["underscore@~1.5.2",null]
+151 verbose parsed url { protocol: null,
+151 verbose parsed url   slashes: null,
+151 verbose parsed url   auth: null,
+151 verbose parsed url   host: null,
+151 verbose parsed url   port: null,
+151 verbose parsed url   hostname: null,
+151 verbose parsed url   hash: null,
+151 verbose parsed url   search: null,
+151 verbose parsed url   query: null,
+151 verbose parsed url   pathname: 'underscore@~1.5.2',
+151 verbose parsed url   path: 'underscore@~1.5.2',
+151 verbose parsed url   href: 'underscore@~1.5.2' }
+152 verbose cache add name="underscore" spec="~1.5.2" args=["underscore","~1.5.2"]
+153 verbose parsed url { protocol: null,
+153 verbose parsed url   slashes: null,
+153 verbose parsed url   auth: null,
+153 verbose parsed url   host: null,
+153 verbose parsed url   port: null,
+153 verbose parsed url   hostname: null,
+153 verbose parsed url   hash: null,
+153 verbose parsed url   search: null,
+153 verbose parsed url   query: null,
+153 verbose parsed url   pathname: '~1.5.2',
+153 verbose parsed url   path: '~1.5.2',
+153 verbose parsed url   href: '~1.5.2' }
+154 verbose addNamed [ 'underscore', '~1.5.2' ]
+155 verbose addNamed [ null, '>=1.5.2-0 <1.6.0-0' ]
+156 silly lockFile dba44b4a-underscore-1-5-2 underscore@~1.5.2
+157 verbose lock underscore@~1.5.2 /Users/craig/.npm/dba44b4a-underscore-1-5-2.lock
+158 silly addNameRange { name: 'tq', range: '>=0.2.0-0 <0.3.0-0', hasData: false }
+159 silly addNameRange { name: 'underscore',
+159 silly addNameRange   range: '>=1.5.2-0 <1.6.0-0',
+159 silly addNameRange   hasData: false }
+160 verbose url raw async
+161 verbose url resolving [ 'http://registry.npmjs.org/', './async' ]
+162 verbose url resolved http://registry.npmjs.org/async
+163 info trying registry request attempt 1 at 16:49:04
+164 verbose etag "EDJEEG712ZBMZYJKJWOW50X8D"
+165 http GET http://registry.npmjs.org/async
+166 verbose url raw flatstack/0.0.7
+167 verbose url resolving [ 'http://registry.npmjs.org/', './flatstack/0.0.7' ]
+168 verbose url resolved http://registry.npmjs.org/flatstack/0.0.7
+169 info trying registry request attempt 1 at 16:49:04
+170 verbose etag "7KGL93UEOOXHR8MN91XA4332F"
+171 http GET http://registry.npmjs.org/flatstack/0.0.7
+172 verbose url raw sift/0.0.12
+173 verbose url resolving [ 'http://registry.npmjs.org/', './sift/0.0.12' ]
+174 verbose url resolved http://registry.npmjs.org/sift/0.0.12
+175 info trying registry request attempt 1 at 16:49:04
+176 verbose etag "69SCVZI6GUSBV72C63QG811W2"
+177 http GET http://registry.npmjs.org/sift/0.0.12
+178 verbose url raw type-component/0.0.1
+179 verbose url resolving [ 'http://registry.npmjs.org/', './type-component/0.0.1' ]
+180 verbose url resolved http://registry.npmjs.org/type-component/0.0.1
+181 info trying registry request attempt 1 at 16:49:04
+182 verbose etag "4FWVFH5LSDRIOUQ2F0GPHMB19"
+183 http GET http://registry.npmjs.org/type-component/0.0.1
+184 verbose url raw flatten
+185 verbose url resolving [ 'http://registry.npmjs.org/', './flatten' ]
+186 verbose url resolved http://registry.npmjs.org/flatten
+187 info trying registry request attempt 1 at 16:49:04
+188 verbose etag "2P5BXKNR0VAJ49R7TR19I9K7"
+189 http GET http://registry.npmjs.org/flatten
+190 verbose url raw tq
+191 verbose url resolving [ 'http://registry.npmjs.org/', './tq' ]
+192 verbose url resolved http://registry.npmjs.org/tq
+193 info trying registry request attempt 1 at 16:49:04
+194 verbose etag "A4Y5WK7PWKCPT96C24960R2NV"
+195 http GET http://registry.npmjs.org/tq
+196 verbose url raw underscore
+197 verbose url resolving [ 'http://registry.npmjs.org/', './underscore' ]
+198 verbose url resolved http://registry.npmjs.org/underscore
+199 info trying registry request attempt 1 at 16:49:04
+200 verbose etag "4E8DN29KSRKQR3APCXL3U1CO0"
+201 http GET http://registry.npmjs.org/underscore
+202 http 200 http://registry.npmjs.org/toarray/0.0.1
+203 silly registry.get cb [ 200,
+203 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+203 silly registry.get     etag: '"DUII9P6N0QVWE1ZZEE4Q8REM"',
+203 silly registry.get     'content-type': 'application/json',
+203 silly registry.get     'accept-ranges': 'bytes',
+203 silly registry.get     via: '1.1 varnish',
+203 silly registry.get     age: '0',
+203 silly registry.get     'cache-control': 'max-age=1',
+203 silly registry.get     'content-length': '1239',
+203 silly registry.get     date: 'Wed, 12 Feb 2014 00:49:05 GMT',
+203 silly registry.get     connection: 'keep-alive',
+203 silly registry.get     'x-served-by': 'cache-v41-ASH, cache-lax1422-LAX',
+203 silly registry.get     'x-cache': 'MISS, MISS',
+203 silly registry.get     'x-cache-hits': '0, 0',
+203 silly registry.get     'x-timer': 'S1392166145.109451771,VS0,VS40,VE61,VE93',
+203 silly registry.get     vary: 'Accept' } ]
+204 silly lockFile 91e853aa-js-org-toarray-toarray-0-0-1-tgz http://registry.npmjs.org/toarray/-/toarray-0.0.1.tgz
+205 verbose lock http://registry.npmjs.org/toarray/-/toarray-0.0.1.tgz /Users/craig/.npm/91e853aa-js-org-toarray-toarray-0-0-1-tgz.lock
+206 http 304 http://registry.npmjs.org/async
+207 silly registry.get cb [ 304,
+207 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+207 silly registry.get     etag: '"EDJEEG712ZBMZYJKJWOW50X8D"',
+207 silly registry.get     'content-length': '0',
+207 silly registry.get     'accept-ranges': 'bytes',
+207 silly registry.get     via: '1.1 varnish',
+207 silly registry.get     age: '0',
+207 silly registry.get     'cache-control': 'max-age=1',
+207 silly registry.get     date: 'Wed, 12 Feb 2014 00:49:05 GMT',
+207 silly registry.get     connection: 'keep-alive',
+207 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-lax1420-LAX',
+207 silly registry.get     'x-cache': 'MISS, MISS',
+207 silly registry.get     'x-cache-hits': '0, 0',
+207 silly registry.get     'x-timer': 'S1392166145.120070934,VS0,VS40,VE53,VE86' } ]
+208 verbose etag async from cache
+209 verbose addRemoteTarball [ 'http://registry.npmjs.org/toarray/-/toarray-0.0.1.tgz',
+209 verbose addRemoteTarball   'a115430a84a4be91b2746f62b9e07c83a3fb8c45' ]
+210 http 304 http://registry.npmjs.org/flatstack/0.0.7
+211 silly registry.get cb [ 304,
+211 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+211 silly registry.get     etag: '"7KGL93UEOOXHR8MN91XA4332F"',
+211 silly registry.get     'content-length': '0',
+211 silly registry.get     'accept-ranges': 'bytes',
+211 silly registry.get     via: '1.1 varnish',
+211 silly registry.get     age: '0',
+211 silly registry.get     'cache-control': 'max-age=1',
+211 silly registry.get     date: 'Wed, 12 Feb 2014 00:49:05 GMT',
+211 silly registry.get     connection: 'keep-alive',
+211 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-lax1423-LAX',
+211 silly registry.get     'x-cache': 'MISS, MISS',
+211 silly registry.get     'x-cache-hits': '0, 0',
+211 silly registry.get     'x-timer': 'S1392166145.123228788,VS0,VS36,VE51,VE87' } ]
+212 verbose etag flatstack/0.0.7 from cache
+213 http 304 http://registry.npmjs.org/sift/0.0.12
+214 silly registry.get cb [ 304,
+214 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+214 silly registry.get     etag: '"69SCVZI6GUSBV72C63QG811W2"',
+214 silly registry.get     'content-length': '0',
+214 silly registry.get     'accept-ranges': 'bytes',
+214 silly registry.get     via: '1.1 varnish',
+214 silly registry.get     age: '0',
+214 silly registry.get     'cache-control': 'max-age=1',
+214 silly registry.get     date: 'Wed, 12 Feb 2014 00:49:05 GMT',
+214 silly registry.get     connection: 'keep-alive',
+214 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-lax1425-LAX',
+214 silly registry.get     'x-cache': 'MISS, MISS',
+214 silly registry.get     'x-cache-hits': '0, 0',
+214 silly registry.get     'x-timer': 'S1392166145.120847464,VS0,VS39,VE54,VE86' } ]
+215 verbose etag sift/0.0.12 from cache
+216 info retry fetch attempt 1 at 16:49:05
+217 verbose fetch to= /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11718-HCxGHBHw/1392166145129-0.03238697280175984/tmp.tgz
+218 http GET http://registry.npmjs.org/toarray/-/toarray-0.0.1.tgz
+219 silly addNameRange number 2 { name: 'async', range: '>=0.2.9-0 <0.3.0-0', hasData: true }
+220 silly addNameRange versions [ 'async',
+220 silly addNameRange   [ '0.1.0',
+220 silly addNameRange     '0.1.1',
+220 silly addNameRange     '0.1.2',
+220 silly addNameRange     '0.1.3',
+220 silly addNameRange     '0.1.4',
+220 silly addNameRange     '0.1.5',
+220 silly addNameRange     '0.1.6',
+220 silly addNameRange     '0.1.7',
+220 silly addNameRange     '0.1.8',
+220 silly addNameRange     '0.1.9',
+220 silly addNameRange     '0.1.10',
+220 silly addNameRange     '0.1.11',
+220 silly addNameRange     '0.1.12',
+220 silly addNameRange     '0.1.13',
+220 silly addNameRange     '0.1.14',
+220 silly addNameRange     '0.1.15',
+220 silly addNameRange     '0.1.16',
+220 silly addNameRange     '0.1.17',
+220 silly addNameRange     '0.1.18',
+220 silly addNameRange     '0.1.19',
+220 silly addNameRange     '0.1.20',
+220 silly addNameRange     '0.1.21',
+220 silly addNameRange     '0.1.22',
+220 silly addNameRange     '0.2.0',
+220 silly addNameRange     '0.2.1',
+220 silly addNameRange     '0.2.2',
+220 silly addNameRange     '0.2.3',
+220 silly addNameRange     '0.2.4',
+220 silly addNameRange     '0.2.5',
+220 silly addNameRange     '0.2.6',
+220 silly addNameRange     '0.2.7',
+220 silly addNameRange     '0.2.8',
+220 silly addNameRange     '0.2.9',
+220 silly addNameRange     '0.2.10' ] ]
+221 verbose addNamed [ 'async', '0.2.10' ]
+222 verbose addNamed [ '0.2.10', '0.2.10' ]
+223 silly lockFile 098b530d-async-0-2-10 async@0.2.10
+224 verbose lock async@0.2.10 /Users/craig/.npm/098b530d-async-0-2-10.lock
+225 silly lockFile edb9f8b2-flatstack-0-0-7 flatstack@0.0.7
+226 silly lockFile edb9f8b2-flatstack-0-0-7 flatstack@0.0.7
+227 silly lockFile 098b530d-async-0-2-10 async@0.2.10
+228 silly lockFile 098b530d-async-0-2-10 async@0.2.10
+229 silly lockFile 5d51c871-async-0-2-9 async@~0.2.9
+230 silly lockFile 5d51c871-async-0-2-9 async@~0.2.9
+231 silly lockFile 5eea15e7-sift-0-0-12 sift@0.0.12
+232 silly lockFile 5eea15e7-sift-0-0-12 sift@0.0.12
+233 http 304 http://registry.npmjs.org/type-component/0.0.1
+234 silly registry.get cb [ 304,
+234 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+234 silly registry.get     etag: '"4FWVFH5LSDRIOUQ2F0GPHMB19"',
+234 silly registry.get     'content-length': '0',
+234 silly registry.get     'accept-ranges': 'bytes',
+234 silly registry.get     via: '1.1 varnish',
+234 silly registry.get     age: '0',
+234 silly registry.get     'cache-control': 'max-age=1',
+234 silly registry.get     date: 'Wed, 12 Feb 2014 00:49:05 GMT',
+234 silly registry.get     connection: 'keep-alive',
+234 silly registry.get     'x-served-by': 'cache-v41-ASH, cache-lax1427-LAX',
+234 silly registry.get     'x-cache': 'MISS, MISS',
+234 silly registry.get     'x-cache-hits': '0, 0',
+234 silly registry.get     'x-timer': 'S1392166145.120022058,VS0,VS41,VE118,VE148' } ]
+235 verbose etag type-component/0.0.1 from cache
+236 silly lockFile 92cc6d12-type-component-0-0-1 type-component@0.0.1
+237 silly lockFile 92cc6d12-type-component-0-0-1 type-component@0.0.1
+238 http 200 http://registry.npmjs.org/toarray/-/toarray-0.0.1.tgz
+239 verbose tar unpack /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11718-HCxGHBHw/1392166145129-0.03238697280175984/tmp.tgz
+240 silly lockFile f928b216-5129-0-03238697280175984-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11718-HCxGHBHw/1392166145129-0.03238697280175984/package
+241 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11718-HCxGHBHw/1392166145129-0.03238697280175984/package /Users/craig/.npm/f928b216-5129-0-03238697280175984-package.lock
+242 silly lockFile ebd3d653-5129-0-03238697280175984-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11718-HCxGHBHw/1392166145129-0.03238697280175984/tmp.tgz
+243 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11718-HCxGHBHw/1392166145129-0.03238697280175984/tmp.tgz /Users/craig/.npm/ebd3d653-5129-0-03238697280175984-tmp-tgz.lock
+244 silly gunzTarPerm modes [ '755', '644' ]
+245 silly gunzTarPerm extractEntry package.json
+246 silly gunzTarPerm extractEntry .npmignore
+247 silly gunzTarPerm extractEntry README.md
+248 silly gunzTarPerm extractEntry index.js
+249 silly gunzTarPerm extractEntry test/toarray-test.js
+250 silly lockFile f928b216-5129-0-03238697280175984-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11718-HCxGHBHw/1392166145129-0.03238697280175984/package
+251 silly lockFile f928b216-5129-0-03238697280175984-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11718-HCxGHBHw/1392166145129-0.03238697280175984/package
+252 silly lockFile ebd3d653-5129-0-03238697280175984-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11718-HCxGHBHw/1392166145129-0.03238697280175984/tmp.tgz
+253 silly lockFile ebd3d653-5129-0-03238697280175984-tmp-tgz tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11718-HCxGHBHw/1392166145129-0.03238697280175984/tmp.tgz
+254 verbose tar pack [ '/Users/craig/.npm/toarray/0.0.1/package.tgz',
+254 verbose tar pack   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11718-HCxGHBHw/1392166145129-0.03238697280175984/package' ]
+255 verbose tarball /Users/craig/.npm/toarray/0.0.1/package.tgz
+256 verbose folder /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11718-HCxGHBHw/1392166145129-0.03238697280175984/package
+257 silly lockFile f928b216-5129-0-03238697280175984-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11718-HCxGHBHw/1392166145129-0.03238697280175984/package
+258 verbose lock tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11718-HCxGHBHw/1392166145129-0.03238697280175984/package /Users/craig/.npm/f928b216-5129-0-03238697280175984-package.lock
+259 silly lockFile 8418bcb8-ig-npm-toarray-0-0-1-package-tgz tar:///Users/craig/.npm/toarray/0.0.1/package.tgz
+260 verbose lock tar:///Users/craig/.npm/toarray/0.0.1/package.tgz /Users/craig/.npm/8418bcb8-ig-npm-toarray-0-0-1-package-tgz.lock
+261 silly lockFile f928b216-5129-0-03238697280175984-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11718-HCxGHBHw/1392166145129-0.03238697280175984/package
+262 silly lockFile f928b216-5129-0-03238697280175984-package tar:///var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11718-HCxGHBHw/1392166145129-0.03238697280175984/package
+263 silly lockFile 8418bcb8-ig-npm-toarray-0-0-1-package-tgz tar:///Users/craig/.npm/toarray/0.0.1/package.tgz
+264 silly lockFile 8418bcb8-ig-npm-toarray-0-0-1-package-tgz tar:///Users/craig/.npm/toarray/0.0.1/package.tgz
+265 silly lockFile 0174b513--craig-npm-toarray-0-0-1-package /Users/craig/.npm/toarray/0.0.1/package
+266 verbose lock /Users/craig/.npm/toarray/0.0.1/package /Users/craig/.npm/0174b513--craig-npm-toarray-0-0-1-package.lock
+267 silly lockFile 0174b513--craig-npm-toarray-0-0-1-package /Users/craig/.npm/toarray/0.0.1/package
+268 silly lockFile 0174b513--craig-npm-toarray-0-0-1-package /Users/craig/.npm/toarray/0.0.1/package
+269 verbose tar unpack /Users/craig/.npm/toarray/0.0.1/package.tgz
+270 silly lockFile a76c35be--craig-npm-toarray-0-0-1-package tar:///Users/craig/.npm/toarray/0.0.1/package
+271 verbose lock tar:///Users/craig/.npm/toarray/0.0.1/package /Users/craig/.npm/a76c35be--craig-npm-toarray-0-0-1-package.lock
+272 silly lockFile 8418bcb8-ig-npm-toarray-0-0-1-package-tgz tar:///Users/craig/.npm/toarray/0.0.1/package.tgz
+273 verbose lock tar:///Users/craig/.npm/toarray/0.0.1/package.tgz /Users/craig/.npm/8418bcb8-ig-npm-toarray-0-0-1-package-tgz.lock
+274 http 304 http://registry.npmjs.org/flatten
+275 silly registry.get cb [ 304,
+275 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+275 silly registry.get     etag: '"2P5BXKNR0VAJ49R7TR19I9K7"',
+275 silly registry.get     'content-length': '0',
+275 silly registry.get     'accept-ranges': 'bytes',
+275 silly registry.get     via: '1.1 varnish',
+275 silly registry.get     age: '0',
+275 silly registry.get     'cache-control': 'max-age=1',
+275 silly registry.get     date: 'Wed, 12 Feb 2014 00:49:05 GMT',
+275 silly registry.get     connection: 'keep-alive',
+275 silly registry.get     'x-served-by': 'cache-v37-ASH, cache-lax1422-LAX',
+275 silly registry.get     'x-cache': 'MISS, MISS',
+275 silly registry.get     'x-cache-hits': '0, 0',
+275 silly registry.get     'x-timer': 'S1392166145.243849516,VS0,VS41,VE54,VE85' } ]
+276 verbose etag flatten from cache
+277 silly gunzTarPerm modes [ '755', '644' ]
+278 silly gunzTarPerm extractEntry package.json
+279 silly addNameRange number 2 { name: 'flatten', range: '>=0.0.0-0 <0.1.0-0', hasData: true }
+280 silly addNameRange versions [ 'flatten', [ '0.0.0', '0.0.1' ] ]
+281 verbose addNamed [ 'flatten', '0.0.1' ]
+282 verbose addNamed [ '0.0.1', '0.0.1' ]
+283 silly lockFile 33ea87c9-flatten-0-0-1 flatten@0.0.1
+284 verbose lock flatten@0.0.1 /Users/craig/.npm/33ea87c9-flatten-0-0-1.lock
+285 silly gunzTarPerm extractEntry .npmignore
+286 silly gunzTarPerm extractEntry README.md
+287 silly gunzTarPerm extractEntry index.js
+288 silly gunzTarPerm extractEntry test/toarray-test.js
+289 silly lockFile 33ea87c9-flatten-0-0-1 flatten@0.0.1
+290 silly lockFile 33ea87c9-flatten-0-0-1 flatten@0.0.1
+291 silly lockFile 72264997-flatten-0-0-x flatten@0.0.x
+292 silly lockFile 72264997-flatten-0-0-x flatten@0.0.x
+293 silly lockFile a76c35be--craig-npm-toarray-0-0-1-package tar:///Users/craig/.npm/toarray/0.0.1/package
+294 silly lockFile a76c35be--craig-npm-toarray-0-0-1-package tar:///Users/craig/.npm/toarray/0.0.1/package
+295 silly lockFile 8418bcb8-ig-npm-toarray-0-0-1-package-tgz tar:///Users/craig/.npm/toarray/0.0.1/package.tgz
+296 silly lockFile 8418bcb8-ig-npm-toarray-0-0-1-package-tgz tar:///Users/craig/.npm/toarray/0.0.1/package.tgz
+297 verbose chmod /Users/craig/.npm/toarray/0.0.1/package.tgz 644
+298 verbose chown /Users/craig/.npm/toarray/0.0.1/package.tgz [ 501, 20 ]
+299 silly lockFile 91e853aa-js-org-toarray-toarray-0-0-1-tgz http://registry.npmjs.org/toarray/-/toarray-0.0.1.tgz
+300 silly lockFile 91e853aa-js-org-toarray-toarray-0-0-1-tgz http://registry.npmjs.org/toarray/-/toarray-0.0.1.tgz
+301 silly lockFile ac9c907b-toarray-0-0-1 toarray@0.0.1
+302 silly lockFile ac9c907b-toarray-0-0-1 toarray@0.0.1
+303 http 304 http://registry.npmjs.org/tq
+304 silly registry.get cb [ 304,
+304 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+304 silly registry.get     etag: '"A4Y5WK7PWKCPT96C24960R2NV"',
+304 silly registry.get     'content-length': '0',
+304 silly registry.get     'accept-ranges': 'bytes',
+304 silly registry.get     via: '1.1 varnish',
+304 silly registry.get     age: '0',
+304 silly registry.get     'cache-control': 'max-age=1',
+304 silly registry.get     date: 'Wed, 12 Feb 2014 00:49:05 GMT',
+304 silly registry.get     connection: 'keep-alive',
+304 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-lax1420-LAX',
+304 silly registry.get     'x-cache': 'MISS, MISS',
+304 silly registry.get     'x-cache-hits': '0, 0',
+304 silly registry.get     'x-timer': 'S1392166145.242766619,VS0,VS39,VE118,VE151' } ]
+305 verbose etag tq from cache
+306 http 304 http://registry.npmjs.org/underscore
+307 silly registry.get cb [ 304,
+307 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+307 silly registry.get     etag: '"4E8DN29KSRKQR3APCXL3U1CO0"',
+307 silly registry.get     'content-length': '0',
+307 silly registry.get     'accept-ranges': 'bytes',
+307 silly registry.get     via: '1.1 varnish',
+307 silly registry.get     age: '0',
+307 silly registry.get     'cache-control': 'max-age=1',
+307 silly registry.get     date: 'Wed, 12 Feb 2014 00:49:05 GMT',
+307 silly registry.get     connection: 'keep-alive',
+307 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-lax1423-LAX',
+307 silly registry.get     'x-cache': 'MISS, MISS',
+307 silly registry.get     'x-cache-hits': '0, 0',
+307 silly registry.get     'x-timer': 'S1392166145.245848656,VS0,VS37,VE116,VE152' } ]
+308 verbose etag underscore from cache
+309 silly addNameRange number 2 { name: 'tq', range: '>=0.2.0-0 <0.3.0-0', hasData: true }
+310 silly addNameRange versions [ 'tq',
+310 silly addNameRange   [ '0.0.1',
+310 silly addNameRange     '0.0.2',
+310 silly addNameRange     '0.0.3',
+310 silly addNameRange     '0.0.4',
+310 silly addNameRange     '0.1.0',
+310 silly addNameRange     '0.1.2',
+310 silly addNameRange     '0.2.0',
+310 silly addNameRange     '0.2.1',
+310 silly addNameRange     '0.2.2',
+310 silly addNameRange     '0.2.3',
+310 silly addNameRange     '0.2.4',
+310 silly addNameRange     '0.2.5' ] ]
+311 verbose addNamed [ 'tq', '0.2.5' ]
+312 verbose addNamed [ '0.2.5', '0.2.5' ]
+313 silly lockFile 502e892a-tq-0-2-5 tq@0.2.5
+314 verbose lock tq@0.2.5 /Users/craig/.npm/502e892a-tq-0-2-5.lock
+315 silly addNameRange number 2 { name: 'underscore',
+315 silly addNameRange   range: '>=1.5.2-0 <1.6.0-0',
+315 silly addNameRange   hasData: true }
+316 silly addNameRange versions [ 'underscore',
+316 silly addNameRange   [ '1.0.3',
+316 silly addNameRange     '1.0.4',
+316 silly addNameRange     '1.1.0',
+316 silly addNameRange     '1.1.1',
+316 silly addNameRange     '1.1.2',
+316 silly addNameRange     '1.1.3',
+316 silly addNameRange     '1.1.4',
+316 silly addNameRange     '1.1.5',
+316 silly addNameRange     '1.1.6',
+316 silly addNameRange     '1.1.7',
+316 silly addNameRange     '1.2.0',
+316 silly addNameRange     '1.2.1',
+316 silly addNameRange     '1.2.2',
+316 silly addNameRange     '1.2.3',
+316 silly addNameRange     '1.2.4',
+316 silly addNameRange     '1.3.0',
+316 silly addNameRange     '1.3.1',
+316 silly addNameRange     '1.3.2',
+316 silly addNameRange     '1.3.3',
+316 silly addNameRange     '1.4.0',
+316 silly addNameRange     '1.4.1',
+316 silly addNameRange     '1.4.2',
+316 silly addNameRange     '1.4.3',
+316 silly addNameRange     '1.4.4',
+316 silly addNameRange     '1.5.0',
+316 silly addNameRange     '1.5.1',
+316 silly addNameRange     '1.5.2',
+316 silly addNameRange     '1.6.0' ] ]
+317 verbose addNamed [ 'underscore', '1.5.2' ]
+318 verbose addNamed [ '1.5.2', '1.5.2' ]
+319 silly lockFile 669f6cbc-underscore-1-5-2 underscore@1.5.2
+320 verbose lock underscore@1.5.2 /Users/craig/.npm/669f6cbc-underscore-1-5-2.lock
+321 silly lockFile 502e892a-tq-0-2-5 tq@0.2.5
+322 silly lockFile 502e892a-tq-0-2-5 tq@0.2.5
+323 silly lockFile a501cecb-tq-0-2-x tq@0.2.x
+324 silly lockFile a501cecb-tq-0-2-x tq@0.2.x
+325 silly lockFile 669f6cbc-underscore-1-5-2 underscore@1.5.2
+326 silly lockFile 669f6cbc-underscore-1-5-2 underscore@1.5.2
+327 silly lockFile dba44b4a-underscore-1-5-2 underscore@~1.5.2
+328 silly lockFile dba44b4a-underscore-1-5-2 underscore@~1.5.2
+329 silly resolved [ { name: 'flatstack',
+329 silly resolved     version: '0.0.7',
+329 silly resolved     description: 'flatstack.js ============',
+329 silly resolved     main: './lib/index.js',
+329 silly resolved     scripts: { test: 'mocha test' },
+329 silly resolved     repository:
+329 silly resolved      { type: 'git',
+329 silly resolved        url: 'git://github.com/classdojo/flatstack.js.git' },
+329 silly resolved     devDependencies: { 'expect.js': '0.2.x', mocha: '1.10.x' },
+329 silly resolved     author: '',
+329 silly resolved     license: 'BSD',
+329 silly resolved     readmeFilename: 'README.md',
+329 silly resolved     gitHead: '4c17831e431d52dcf3c2496cd8e6867e12a01c56',
+329 silly resolved     readme: '\n```javascript\nvar flatstach = require("flatstack");\nvar queue = flatstack();\n\n\nqueue.push(function() {\n  setTimeout(queue.pause().resume, 0);\n});\n\n//if argument[0] is present, then it\'s async\nqueue.push(function(next) {\n   setTimeout(next, 0);\n});\n\n//called immediately\nqueue.push(function() {\n  \n  //but look, you can inject functions before the next one is called!\n  queue.unshift(function() {\n    queue.pause.resume(); //calls async timeout\n  });\n});\n```',
+329 silly resolved     _id: 'flatstack@0.0.7',
+329 silly resolved     _from: 'flatstack@0.0.7',
+329 silly resolved     bugs: { url: 'https://github.com/classdojo/flatstack.js/issues' } },
+329 silly resolved   { name: 'async',
+329 silly resolved     description: 'Higher-order functions and common patterns for asynchronous code',
+329 silly resolved     main: './lib/async',
+329 silly resolved     author: { name: 'Caolan McMahon' },
+329 silly resolved     version: '0.2.10',
+329 silly resolved     repository: { type: 'git', url: 'https://github.com/caolan/async.git' },
+329 silly resolved     bugs: { url: 'https://github.com/caolan/async/issues' },
+329 silly resolved     licenses: [ [Object] ],
+329 silly resolved     devDependencies: { nodeunit: '>0.0.0', 'uglify-js': '1.2.x', nodelint: '>0.0.0' },
+329 silly resolved     jam: { main: 'lib/async.js', include: [Object] },
+329 silly resolved     scripts: { test: 'nodeunit test/test-async.js' },
+329 silly resolved     readme: '# Async.js\n\nAsync is a utility module which provides straight-forward, powerful functions\nfor working with asynchronous JavaScript. Although originally designed for\nuse with [node.js](http://nodejs.org), it can also be used directly in the\nbrowser. Also supports [component](https://github.com/component/component).\n\nAsync provides around 20 functions that include the usual \'functional\'\nsuspects (map, reduce, filter, each…) as well as some common patterns\nfor asynchronous control flow (parallel, series, waterfall…). All these\nfunctions assume you follow the node.js convention of providing a single\ncallback as the last argument of your async function.\n\n\n## Quick Examples\n\n```javascript\nasync.map([\'file1\',\'file2\',\'file3\'], fs.stat, function(err, results){\n    // results is now an array of stats for each file\n});\n\nasync.filter([\'file1\',\'file2\',\'file3\'], fs.exists, function(results){\n    // results now equals an array of the existing files\n});\n\nasync.parallel([\n    function(){ ... },\n    function(){ ... }\n], callback);\n\nasync.series([\n    function(){ ... },\n    function(){ ... }\n]);\n```\n\nThere are many more functions available so take a look at the docs below for a\nfull list. This module aims to be comprehensive, so if you feel anything is\nmissing please create a GitHub issue for it.\n\n## Common Pitfalls\n\n### Binding a context to an iterator\n\nThis section is really about bind, not about async. If you are wondering how to\nmake async execute your iterators in a given context, or are confused as to why\na method of another library isn\'t working as an iterator, study this example:\n\n```js\n// Here is a simple object with an (unnecessarily roundabout) squaring method\nvar AsyncSquaringLibrary = {\n  squareExponent: 2,\n  square: function(number, callback){ \n    var result = Math.pow(number, this.squareExponent);\n    setTimeout(function(){\n      callback(null, result);\n    }, 200);\n  }\n};\n\nasync.map([1, 2, 3], AsyncSquaringLibrary.square, function(err, result){\n  // result is [NaN, NaN, NaN]\n  // This fails because the `this.squareExponent` expression in the square\n  // function is not evaluated in the context of AsyncSquaringLibrary, and is\n  // therefore undefined.\n});\n\nasync.map([1, 2, 3], AsyncSquaringLibrary.square.bind(AsyncSquaringLibrary), function(err, result){\n  // result is [1, 4, 9]\n  // With the help of bind we can attach a context to the iterator before\n  // passing it to async. Now the square function will be executed in its \n  // \'home\' AsyncSquaringLibrary context and the value of `this.squareExponent`\n  // will be as expected.\n});\n```\n\n## Download\n\nThe source is available for download from\n[GitHub](http://github.com/caolan/async).\nAlternatively, you can install using Node Package Manager (npm):\n\n    npm install async\n\n__Development:__ [async.js](https://github.com/caolan/async/raw/master/lib/async.js) - 29.6kb Uncompressed\n\n## In the Browser\n\nSo far it\'s been tested in IE6, IE7, IE8, FF3.6 and Chrome 5. Usage:\n\n```html\n<script type="text/javascript" src="async.js"></script>\n<script type="text/javascript">\n\n    async.map(data, asyncProcess, function(err, results){\n        alert(results);\n    });\n\n</script>\n```\n\n## Documentation\n\n### Collections\n\n* [each](#each)\n* [eachSeries](#eachSeries)\n* [eachLimit](#eachLimit)\n* [map](#map)\n* [mapSeries](#mapSeries)\n* [mapLimit](#mapLimit)\n* [filter](#filter)\n* [filterSeries](#filterSeries)\n* [reject](#reject)\n* [rejectSeries](#rejectSeries)\n* [reduce](#reduce)\n* [reduceRight](#reduceRight)\n* [detect](#detect)\n* [detectSeries](#detectSeries)\n* [sortBy](#sortBy)\n* [some](#some)\n* [every](#every)\n* [concat](#concat)\n* [concatSeries](#concatSeries)\n\n### Control Flow\n\n* [series](#series)\n* [parallel](#parallel)\n* [parallelLimit](#parallellimittasks-limit-callback)\n* [whilst](#whilst)\n* [doWhilst](#doWhilst)\n* [until](#until)\n* [doUntil](#doUntil)\n* [forever](#forever)\n* [waterfall](#waterfall)\n* [compose](#compose)\n* [applyEach](#applyEach)\n* [applyEachSeries](#applyEachSeries)\n* [queue](#queue)\n* [cargo](#cargo)\n* [auto](#auto)\n* [iterator](#iterator)\n* [apply](#apply)\n* [nextTick](#nextTick)\n* [times](#times)\n* [timesSeries](#timesSeries)\n\n### Utils\n\n* [memoize](#memoize)\n* [unmemoize](#unmemoize)\n* [log](#log)\n* [dir](#dir)\n* [noConflict](#noConflict)\n\n\n## Collections\n\n<a name="forEach" />\n<a name="each" />\n### each(arr, iterator, callback)\n\nApplies an iterator function to each item in an array, in parallel.\nThe iterator is called with an item from the list and a callback for when it\nhas finished. If the iterator passes an error to this callback, the main\ncallback for the each function is immediately called with the error.\n\nNote, that since this function applies the iterator to each item in parallel\nthere is no guarantee that the iterator functions will complete in order.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback(err) which must be called once it has \n  completed. If no error has occured, the callback should be run without \n  arguments or with an explicit null argument.\n* callback(err) - A callback which is called after all the iterator functions\n  have finished, or an error has occurred.\n\n__Example__\n\n```js\n// assuming openFiles is an array of file names and saveFile is a function\n// to save the modified contents of that file:\n\nasync.each(openFiles, saveFile, function(err){\n    // if any of the saves produced an error, err would equal that error\n});\n```\n\n---------------------------------------\n\n<a name="forEachSeries" />\n<a name="eachSeries" />\n### eachSeries(arr, iterator, callback)\n\nThe same as each only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. This means the iterator functions will complete in order.\n\n\n---------------------------------------\n\n<a name="forEachLimit" />\n<a name="eachLimit" />\n### eachLimit(arr, limit, iterator, callback)\n\nThe same as each only no more than "limit" iterators will be simultaneously \nrunning at any time.\n\nNote that the items are not processed in batches, so there is no guarantee that\n the first "limit" iterator functions will complete before any others are \nstarted.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* limit - The maximum number of iterators to run at any time.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback(err) which must be called once it has \n  completed. If no error has occured, the callback should be run without \n  arguments or with an explicit null argument.\n* callback(err) - A callback which is called after all the iterator functions\n  have finished, or an error has occurred.\n\n__Example__\n\n```js\n// Assume documents is an array of JSON objects and requestApi is a\n// function that interacts with a rate-limited REST api.\n\nasync.eachLimit(documents, 20, requestApi, function(err){\n    // if any of the saves produced an error, err would equal that error\n});\n```\n\n---------------------------------------\n\n<a name="map" />\n### map(arr, iterator, callback)\n\nProduces a new array of values by mapping each value in the given array through\nthe iterator function. The iterator is called with an item from the array and a\ncallback for when it has finished processing. The callback takes 2 arguments, \nan error and the transformed item from the array. If the iterator passes an\nerror to this callback, the main callback for the map function is immediately\ncalled with the error.\n\nNote, that since this function applies the iterator to each item in parallel\nthere is no guarantee that the iterator functions will complete in order, however\nthe results array will be in the same order as the original array.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback(err, transformed) which must be called once \n  it has completed with an error (which can be null) and a transformed item.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is an array of the\n  transformed items from the original array.\n\n__Example__\n\n```js\nasync.map([\'file1\',\'file2\',\'file3\'], fs.stat, function(err, results){\n    // results is now an array of stats for each file\n});\n```\n\n---------------------------------------\n\n<a name="mapSeries" />\n### mapSeries(arr, iterator, callback)\n\nThe same as map only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. The results array will be in the same order as the original.\n\n\n---------------------------------------\n\n<a name="mapLimit" />\n### mapLimit(arr, limit, iterator, callback)\n\nThe same as map only no more than "limit" iterators will be simultaneously \nrunning at any time.\n\nNote that the items are not processed in batches, so there is no guarantee that\n the first "limit" iterator functions will complete before any others are \nstarted.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* limit - The maximum number of iterators to run at any time.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback(err, transformed) which must be called once \n  it has completed with an error (which can be null) and a transformed item.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is an array of the\n  transformed items from the original array.\n\n__Example__\n\n```js\nasync.mapLimit([\'file1\',\'file2\',\'file3\'], 1, fs.stat, function(err, results){\n    // results is now an array of stats for each file\n});\n```\n\n---------------------------------------\n\n<a name="filter" />\n### filter(arr, iterator, callback)\n\n__Alias:__ select\n\nReturns a new array of all the values which pass an async truth test.\n_The callback for each iterator call only accepts a single argument of true or\nfalse, it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like fs.exists. This operation is\nperformed in parallel, but the results array will be in the same order as the\noriginal.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback(truthValue) which must be called with a \n  boolean argument once it has completed.\n* callback(results) - A callback which is called after all the iterator\n  functions have finished.\n\n__Example__\n\n```js\nasync.filter([\'file1\',\'file2\',\'file3\'], fs.exists, function(results){\n    // results now equals an array of the existing files\n});\n```\n\n---------------------------------------\n\n<a name="filterSeries" />\n### filterSeries(arr, iterator, callback)\n\n__alias:__ selectSeries\n\nThe same as filter only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. The results array will be in the same order as the original.\n\n---------------------------------------\n\n<a name="reject" />\n### reject(arr, iterator, callback)\n\nThe opposite of filter. Removes values that pass an async truth test.\n\n---------------------------------------\n\n<a name="rejectSeries" />\n### rejectSeries(arr, iterator, callback)\n\nThe same as reject, only the iterator is applied to each item in the array\nin series.\n\n\n---------------------------------------\n\n<a name="reduce" />\n### reduce(arr, memo, iterator, callback)\n\n__aliases:__ inject, foldl\n\nReduces a list of values into a single value using an async iterator to return\neach successive step. Memo is the initial state of the reduction. This\nfunction only operates in series. For performance reasons, it may make sense to\nsplit a call to this function into a parallel map, then use the normal\nArray.prototype.reduce on the results. This function is for situations where\neach step in the reduction needs to be async, if you can get the data before\nreducing it then it\'s probably a good idea to do so.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* memo - The initial state of the reduction.\n* iterator(memo, item, callback) - A function applied to each item in the\n  array to produce the next step in the reduction. The iterator is passed a\n  callback(err, reduction) which accepts an optional error as its first \n  argument, and the state of the reduction as the second. If an error is \n  passed to the callback, the reduction is stopped and the main callback is \n  immediately called with the error.\n* callback(err, result) - A callback which is called after all the iterator\n  functions have finished. Result is the reduced value.\n\n__Example__\n\n```js\nasync.reduce([1,2,3], 0, function(memo, item, callback){\n    // pointless async:\n    process.nextTick(function(){\n        callback(null, memo + item)\n    });\n}, function(err, result){\n    // result is now equal to the last value of memo, which is 6\n});\n```\n\n---------------------------------------\n\n<a name="reduceRight" />\n### reduceRight(arr, memo, iterator, callback)\n\n__Alias:__ foldr\n\nSame as reduce, only operates on the items in the array in reverse order.\n\n\n---------------------------------------\n\n<a name="detect" />\n### detect(arr, iterator, callback)\n\nReturns the first value in a list that passes an async truth test. The\niterator is applied in parallel, meaning the first iterator to return true will\nfire the detect callback with that result. That means the result might not be\nthe first item in the original array (in terms of order) that passes the test.\n\nIf order within the original array is important then look at detectSeries.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback(truthValue) which must be called with a \n  boolean argument once it has completed.\n* callback(result) - A callback which is called as soon as any iterator returns\n  true, or after all the iterator functions have finished. Result will be\n  the first item in the array that passes the truth test (iterator) or the\n  value undefined if none passed.\n\n__Example__\n\n```js\nasync.detect([\'file1\',\'file2\',\'file3\'], fs.exists, function(result){\n    // result now equals the first file in the list that exists\n});\n```\n\n---------------------------------------\n\n<a name="detectSeries" />\n### detectSeries(arr, iterator, callback)\n\nThe same as detect, only the iterator is applied to each item in the array\nin series. This means the result is always the first in the original array (in\nterms of array order) that passes the truth test.\n\n\n---------------------------------------\n\n<a name="sortBy" />\n### sortBy(arr, iterator, callback)\n\nSorts a list by the results of running each value through an async iterator.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback(err, sortValue) which must be called once it\n  has completed with an error (which can be null) and a value to use as the sort\n  criteria.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is the items from\n  the original array sorted by the values returned by the iterator calls.\n\n__Example__\n\n```js\nasync.sortBy([\'file1\',\'file2\',\'file3\'], function(file, callback){\n    fs.stat(file, function(err, stats){\n        callback(err, stats.mtime);\n    });\n}, function(err, results){\n    // results is now the original array of files sorted by\n    // modified date\n});\n```\n\n---------------------------------------\n\n<a name="some" />\n### some(arr, iterator, callback)\n\n__Alias:__ any\n\nReturns true if at least one element in the array satisfies an async test.\n_The callback for each iterator call only accepts a single argument of true or\nfalse, it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like fs.exists. Once any iterator\ncall returns true, the main callback is immediately called.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback(truthValue) which must be called with a \n  boolean argument once it has completed.\n* callback(result) - A callback which is called as soon as any iterator returns\n  true, or after all the iterator functions have finished. Result will be\n  either true or false depending on the values of the async tests.\n\n__Example__\n\n```js\nasync.some([\'file1\',\'file2\',\'file3\'], fs.exists, function(result){\n    // if result is true then at least one of the files exists\n});\n```\n\n---------------------------------------\n\n<a name="every" />\n### every(arr, iterator, callback)\n\n__Alias:__ all\n\nReturns true if every element in the array satisfies an async test.\n_The callback for each iterator call only accepts a single argument of true or\nfalse, it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like fs.exists.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback(truthValue) which must be called with a \n  boolean argument once it has completed.\n* callback(result) - A callback which is called after all the iterator\n  functions have finished. Result will be either true or false depending on\n  the values of the async tests.\n\n__Example__\n\n```js\nasync.every([\'file1\',\'file2\',\'file3\'], fs.exists, function(result){\n    // if result is true then every file exists\n});\n```\n\n---------------------------------------\n\n<a name="concat" />\n### concat(arr, iterator, callback)\n\nApplies an iterator to each item in a list, concatenating the results. Returns the\nconcatenated list. The iterators are called in parallel, and the results are\nconcatenated as they return. There is no guarantee that the results array will\nbe returned in the original order of the arguments passed to the iterator function.\n\n__Arguments__\n\n* arr - An array to iterate over\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback(err, results) which must be called once it \n  has completed with an error (which can be null) and an array of results.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is an array containing\n  the concatenated results of the iterator function.\n\n__Example__\n\n```js\nasync.concat([\'dir1\',\'dir2\',\'dir3\'], fs.readdir, function(err, files){\n    // files is now a list of filenames that exist in the 3 directories\n});\n```\n\n---------------------------------------\n\n<a name="concatSeries" />\n### concatSeries(arr, iterator, callback)\n\nSame as async.concat, but executes in series instead of parallel.\n\n\n## Control Flow\n\n<a name="series" />\n### series(tasks, [callback])\n\nRun an array of functions in series, each one running once the previous\nfunction has completed. If any functions in the series pass an error to its\ncallback, no more functions are run and the callback for the series is\nimmediately called with the value of the error. Once the tasks have completed,\nthe results are passed to the final callback as an array.\n\nIt is also possible to use an object instead of an array. Each property will be\nrun as a function and the results will be passed to the final callback as an object\ninstead of an array. This can be a more readable way of handling results from\nasync.series.\n\n\n__Arguments__\n\n* tasks - An array or object containing functions to run, each function is passed\n  a callback(err, result) it must call on completion with an error (which can\n  be null) and an optional result value.\n* callback(err, results) - An optional callback to run once all the functions\n  have completed. This function gets a results array (or object) containing all \n  the result arguments passed to the task callbacks.\n\n__Example__\n\n```js\nasync.series([\n    function(callback){\n        // do some stuff ...\n        callback(null, \'one\');\n    },\n    function(callback){\n        // do some more stuff ...\n        callback(null, \'two\');\n    }\n],\n// optional callback\nfunction(err, results){\n    // results is now equal to [\'one\', \'two\']\n});\n\n\n// an example using an object instead of an array\nasync.series({\n    one: function(callback){\n        setTimeout(function(){\n            callback(null, 1);\n        }, 200);\n    },\n    two: function(callback){\n        setTimeout(function(){\n            callback(null, 2);\n        }, 100);\n    }\n},\nfunction(err, results) {\n    // results is now equal to: {one: 1, two: 2}\n});\n```\n\n---------------------------------------\n\n<a name="parallel" />\n### parallel(tasks, [callback])\n\nRun an array of functions in parallel, without waiting until the previous\nfunction has completed. If any of the functions pass an error to its\ncallback, the main callback is immediately called with the value of the error.\nOnce the tasks have completed, the results are passed to the final callback as an\narray.\n\nIt is also possible to use an object instead of an array. Each property will be\nrun as a function and the results will be passed to the final callback as an object\ninstead of an array. This can be a more readable way of handling results from\nasync.parallel.\n\n\n__Arguments__\n\n* tasks - An array or object containing functions to run, each function is passed \n  a callback(err, result) it must call on completion with an error (which can\n  be null) and an optional result value.\n* callback(err, results) - An optional callback to run once all the functions\n  have completed. This function gets a results array (or object) containing all \n  the result arguments passed to the task callbacks.\n\n__Example__\n\n```js\nasync.parallel([\n    function(callback){\n        setTimeout(function(){\n            callback(null, \'one\');\n        }, 200);\n    },\n    function(callback){\n        setTimeout(function(){\n            callback(null, \'two\');\n        }, 100);\n    }\n],\n// optional callback\nfunction(err, results){\n    // the results array will equal [\'one\',\'two\'] even though\n    // the second function had a shorter timeout.\n});\n\n\n// an example using an object instead of an array\nasync.parallel({\n    one: function(callback){\n        setTimeout(function(){\n            callback(null, 1);\n        }, 200);\n    },\n    two: function(callback){\n        setTimeout(function(){\n            callback(null, 2);\n        }, 100);\n    }\n},\nfunction(err, results) {\n    // results is now equals to: {one: 1, two: 2}\n});\n```\n\n---------------------------------------\n\n<a name="parallel" />\n### parallelLimit(tasks, limit, [callback])\n\nThe same as parallel only the tasks are executed in parallel with a maximum of "limit" \ntasks executing at any time.\n\nNote that the tasks are not executed in batches, so there is no guarantee that \nthe first "limit" tasks will complete before any others are started.\n\n__Arguments__\n\n* tasks - An array or object containing functions to run, each function is passed \n  a callback(err, result) it must call on completion with an error (which can\n  be null) and an optional result value.\n* limit - The maximum number of tasks to run at any time.\n* callback(err, results) - An optional callback to run once all the functions\n  have completed. This function gets a results array (or object) containing all \n  the result arguments passed to the task callbacks.\n\n---------------------------------------\n\n<a name="whilst" />\n### whilst(test, fn, callback)\n\nRepeatedly call fn, while test returns true. Calls the callback when stopped,\nor an error occurs.\n\n__Arguments__\n\n* test() - synchronous truth test to perform before each execution of fn.\n* fn(callback) - A function to call each time the test passes. The function is\n  passed a callback(err) which must be called once it has completed with an \n  optional error argument.\n* callback(err) - A callback which is called after the test fails and repeated\n  execution of fn has stopped.\n\n__Example__\n\n```js\nvar count = 0;\n\nasync.whilst(\n    function () { return count < 5; },\n    function (callback) {\n        count++;\n        setTimeout(callback, 1000);\n    },\n    function (err) {\n        // 5 seconds have passed\n    }\n);\n```\n\n---------------------------------------\n\n<a name="doWhilst" />\n### doWhilst(fn, test, callback)\n\nThe post check version of whilst. To reflect the difference in the order of operations `test` and `fn` arguments are switched. `doWhilst` is to `whilst` as `do while` is to `while` in plain JavaScript.\n\n---------------------------------------\n\n<a name="until" />\n### until(test, fn, callback)\n\nRepeatedly call fn, until test returns true. Calls the callback when stopped,\nor an error occurs.\n\nThe inverse of async.whilst.\n\n---------------------------------------\n\n<a name="doUntil" />\n### doUntil(fn, test, callback)\n\nLike doWhilst except the test is inverted. Note the argument ordering differs from `until`.\n\n---------------------------------------\n\n<a name="forever" />\n### forever(fn, callback)\n\nCalls the asynchronous function \'fn\' repeatedly, in series, indefinitely.\nIf an error is passed to fn\'s callback then \'callback\' is called with the\nerror, otherwise it will never be called.\n\n---------------------------------------\n\n<a name="waterfall" />\n### waterfall(tasks, [callback])\n\nRuns an array of functions in series, each passing their results to the next in\nthe array. However, if any of the functions pass an error to the callback, the\nnext function is not executed and the main callback is immediately called with\nthe error.\n\n__Arguments__\n\n* tasks - An array of functions to run, each function is passed a \n  callback(err, result1, result2, ...) it must call on completion. The first\n  argument is an error (which can be null) and any further arguments will be \n  passed as arguments in order to the next task.\n* callback(err, [results]) - An optional callback to run once all the functions\n  have completed. This will be passed the results of the last task\'s callback.\n\n\n\n__Example__\n\n```js\nasync.waterfall([\n    function(callback){\n        callback(null, \'one\', \'two\');\n    },\n    function(arg1, arg2, callback){\n        callback(null, \'three\');\n    },\n    function(arg1, callback){\n        // arg1 now equals \'three\'\n        callback(null, \'done\');\n    }\n], function (err, result) {\n   // result now equals \'done\'    \n});\n```\n\n---------------------------------------\n<a name="compose" />\n### compose(fn1, fn2...)\n\nCreates a function which is a composition of the passed asynchronous\nfunctions. Each function consumes the return value of the function that\nfollows. Composing functions f(), g() and h() would produce the result of\nf(g(h())), only this version uses callbacks to obtain the return values.\n\nEach function is executed with the `this` binding of the composed function.\n\n__Arguments__\n\n* functions... - the asynchronous functions to compose\n\n\n__Example__\n\n```js\nfunction add1(n, callback) {\n    setTimeout(function () {\n        callback(null, n + 1);\n    }, 10);\n}\n\nfunction mul3(n, callback) {\n    setTimeout(function () {\n        callback(null, n * 3);\n    }, 10);\n}\n\nvar add1mul3 = async.compose(mul3, add1);\n\nadd1mul3(4, function (err, result) {\n   // result now equals 15\n});\n```\n\n---------------------------------------\n<a name="applyEach" />\n### applyEach(fns, args..., callback)\n\nApplies the provided arguments to each function in the array, calling the\ncallback after all functions have completed. If you only provide the first\nargument then it will return a function which lets you pass in the\narguments as if it were a single function call.\n\n__Arguments__\n\n* fns - the asynchronous functions to all call with the same arguments\n* args... - any number of separate arguments to pass to the function\n* callback - the final argument should be the callback, called when all\n  functions have completed processing\n\n\n__Example__\n\n```js\nasync.applyEach([enableSearch, updateSchema], \'bucket\', callback);\n\n// partial application example:\nasync.each(\n    buckets,\n    async.applyEach([enableSearch, updateSchema]),\n    callback\n);\n```\n\n---------------------------------------\n\n<a name="applyEachSeries" />\n### applyEachSeries(arr, iterator, callback)\n\nThe same as applyEach only the functions are applied in series.\n\n---------------------------------------\n\n<a name="queue" />\n### queue(worker, concurrency)\n\nCreates a queue object with the specified concurrency. Tasks added to the\nqueue will be processed in parallel (up to the concurrency limit). If all\nworkers are in progress, the task is queued until one is available. Once\na worker has completed a task, the task\'s callback is called.\n\n__Arguments__\n\n* worker(task, callback) - An asynchronous function for processing a queued\n  task, which must call its callback(err) argument when finished, with an \n  optional error as an argument.\n* concurrency - An integer for determining how many worker functions should be\n  run in parallel.\n\n__Queue objects__\n\nThe queue object returned by this function has the following properties and\nmethods:\n\n* length() - a function returning the number of items waiting to be processed.\n* concurrency - an integer for determining how many worker functions should be\n  run in parallel. This property can be changed after a queue is created to\n  alter the concurrency on-the-fly.\n* push(task, [callback]) - add a new task to the queue, the callback is called\n  once the worker has finished processing the task.\n  instead of a single task, an array of tasks can be submitted. the respective callback is used for every task in the list.\n* unshift(task, [callback]) - add a new task to the front of the queue.\n* saturated - a callback that is called when the queue length hits the concurrency and further tasks will be queued\n* empty - a callback that is called when the last item from the queue is given to a worker\n* drain - a callback that is called when the last item from the queue has returned from the worker\n\n__Example__\n\n```js\n// create a queue object with concurrency 2\n\nvar q = async.queue(function (task, callback) {\n    console.log(\'hello \' + task.name);\n    callback();\n}, 2);\n\n\n// assign a callback\nq.drain = function() {\n    console.log(\'all items have been processed\');\n}\n\n// add some items to the queue\n\nq.push({name: \'foo\'}, function (err) {\n    console.log(\'finished processing foo\');\n});\nq.push({name: \'bar\'}, function (err) {\n    console.log(\'finished processing bar\');\n});\n\n// add some items to the queue (batch-wise)\n\nq.push([{name: \'baz\'},{name: \'bay\'},{name: \'bax\'}], function (err) {\n    console.log(\'finished processing bar\');\n});\n\n// add some items to the front of the queue\n\nq.unshift({name: \'bar\'}, function (err) {\n    console.log(\'finished processing bar\');\n});\n```\n\n---------------------------------------\n\n<a name="cargo" />\n### cargo(worker, [payload])\n\nCreates a cargo object with the specified payload. Tasks added to the\ncargo will be processed altogether (up to the payload limit). If the\nworker is in progress, the task is queued until it is available. Once\nthe worker has completed some tasks, each callback of those tasks is called.\n\n__Arguments__\n\n* worker(tasks, callback) - An asynchronous function for processing an array of\n  queued tasks, which must call its callback(err) argument when finished, with \n  an optional error as an argument.\n* payload - An optional integer for determining how many tasks should be\n  processed per round; if omitted, the default is unlimited.\n\n__Cargo objects__\n\nThe cargo object returned by this function has the following properties and\nmethods:\n\n* length() - a function returning the number of items waiting to be processed.\n* payload - an integer for determining how many tasks should be\n  process per round. This property can be changed after a cargo is created to\n  alter the payload on-the-fly.\n* push(task, [callback]) - add a new task to the queue, the callback is called\n  once the worker has finished processing the task.\n  instead of a single task, an array of tasks can be submitted. the respective callback is used for every task in the list.\n* saturated - a callback that is called when the queue length hits the concurrency and further tasks will be queued\n* empty - a callback that is called when the last item from the queue is given to a worker\n* drain - a callback that is called when the last item from the queue has returned from the worker\n\n__Example__\n\n```js\n// create a cargo object with payload 2\n\nvar cargo = async.cargo(function (tasks, callback) {\n    for(var i=0; i<tasks.length; i++){\n      console.log(\'hello \' + tasks[i].name);\n    }\n    callback();\n}, 2);\n\n\n// add some items\n\ncargo.push({name: \'foo\'}, function (err) {\n    console.log(\'finished processing foo\');\n});\ncargo.push({name: \'bar\'}, function (err) {\n    console.log(\'finished processing bar\');\n});\ncargo.push({name: \'baz\'}, function (err) {\n    console.log(\'finished processing baz\');\n});\n```\n\n---------------------------------------\n\n<a name="auto" />\n### auto(tasks, [callback])\n\nDetermines the best order for running functions based on their requirements.\nEach function can optionally depend on other functions being completed first,\nand each function is run as soon as its requirements are satisfied. If any of\nthe functions pass an error to their callback, that function will not complete\n(so any other functions depending on it will not run) and the main callback\nwill be called immediately with the error. Functions also receive an object\ncontaining the results of functions which have completed so far.\n\nNote, all functions are called with a results object as a second argument, \nso it is unsafe to pass functions in the tasks object which cannot handle the\nextra argument. For example, this snippet of code:\n\n```js\nasync.auto({\n  readData: async.apply(fs.readFile, \'data.txt\', \'utf-8\')\n}, callback);\n```\n\nwill have the effect of calling readFile with the results object as the last\nargument, which will fail:\n\n```js\nfs.readFile(\'data.txt\', \'utf-8\', cb, {});\n```\n\nInstead, wrap the call to readFile in a function which does not forward the \nresults object:\n\n```js\nasync.auto({\n  readData: function(cb, results){\n    fs.readFile(\'data.txt\', \'utf-8\', cb);\n  }\n}, callback);\n```\n\n__Arguments__\n\n* tasks - An object literal containing named functions or an array of\n  requirements, with the function itself the last item in the array. The key\n  used for each function or array is used when specifying requirements. The \n  function receives two arguments: (1) a callback(err, result) which must be \n  called when finished, passing an error (which can be null) and the result of \n  the function\'s execution, and (2) a results object, containing the results of\n  the previously executed functions.\n* callback(err, results) - An optional callback which is called when all the\n  tasks have been completed. The callback will receive an error as an argument\n  if any tasks pass an error to their callback. Results will always be passed\n\tbut if an error occurred, no other tasks will be performed, and the results\n\tobject will only contain partial results.\n  \n\n__Example__\n\n```js\nasync.auto({\n    get_data: function(callback){\n        // async code to get some data\n    },\n    make_folder: function(callback){\n        // async code to create a directory to store a file in\n        // this is run at the same time as getting the data\n    },\n    write_file: [\'get_data\', \'make_folder\', function(callback){\n        // once there is some data and the directory exists,\n        // write the data to a file in the directory\n        callback(null, filename);\n    }],\n    email_link: [\'write_file\', function(callback, results){\n        // once the file is written let\'s email a link to it...\n        // results.write_file contains the filename returned by write_file.\n    }]\n});\n```\n\nThis is a fairly trivial example, but to do this using the basic parallel and\nseries functions would look like this:\n\n```js\nasync.parallel([\n    function(callback){\n        // async code to get some data\n    },\n    function(callback){\n        // async code to create a directory to store a file in\n        // this is run at the same time as getting the data\n    }\n],\nfunction(err, results){\n    async.series([\n        function(callback){\n            // once there is some data and the directory exists,\n            // write the data to a file in the directory\n        },\n        function(callback){\n            // once the file is written let\'s email a link to it...\n        }\n    ]);\n});\n```\n\nFor a complicated series of async tasks using the auto function makes adding\nnew tasks much easier and makes the code more readable.\n\n\n---------------------------------------\n\n<a name="iterator" />\n### iterator(tasks)\n\nCreates an iterator function which calls the next function in the array,\nreturning a continuation to call the next one after that. It\'s also possible to\n\'peek\' the next iterator by doing iterator.next().\n\nThis function is used internally by the async module but can be useful when\nyou want to manually control the flow of functions in series.\n\n__Arguments__\n\n* tasks - An array of functions to run.\n\n__Example__\n\n```js\nvar iterator = async.iterator([\n    function(){ sys.p(\'one\'); },\n    function(){ sys.p(\'two\'); },\n    function(){ sys.p(\'three\'); }\n]);\n\nnode> var iterator2 = iterator();\n\'one\'\nnode> var iterator3 = iterator2();\n\'two\'\nnode> iterator3();\n\'three\'\nnode> var nextfn = iterator2.next();\nnode> nextfn();\n\'three\'\n```\n\n---------------------------------------\n\n<a name="apply" />\n### apply(function, arguments..)\n\nCreates a continuation function with some arguments already applied, a useful\nshorthand when combined with other control flow functions. Any arguments\npassed to the returned function are added to the arguments originally passed\nto apply.\n\n__Arguments__\n\n* function - The function you want to eventually apply all arguments to.\n* arguments... - Any number of arguments to automatically apply when the\n  continuation is called.\n\n__Example__\n\n```js\n// using apply\n\nasync.parallel([\n    async.apply(fs.writeFile, \'testfile1\', \'test1\'),\n    async.apply(fs.writeFile, \'testfile2\', \'test2\'),\n]);\n\n\n// the same process without using apply\n\nasync.parallel([\n    function(callback){\n        fs.writeFile(\'testfile1\', \'test1\', callback);\n    },\n    function(callback){\n        fs.writeFile(\'testfile2\', \'test2\', callback);\n    }\n]);\n```\n\nIt\'s possible to pass any number of additional arguments when calling the\ncontinuation:\n\n```js\nnode> var fn = async.apply(sys.puts, \'one\');\nnode> fn(\'two\', \'three\');\none\ntwo\nthree\n```\n\n---------------------------------------\n\n<a name="nextTick" />\n### nextTick(callback)\n\nCalls the callback on a later loop around the event loop. In node.js this just\ncalls process.nextTick, in the browser it falls back to setImmediate(callback)\nif available, otherwise setTimeout(callback, 0), which means other higher priority\nevents may precede the execution of the callback.\n\nThis is used internally for browser-compatibility purposes.\n\n__Arguments__\n\n* callback - The function to call on a later loop around the event loop.\n\n__Example__\n\n```js\nvar call_order = [];\nasync.nextTick(function(){\n    call_order.push(\'two\');\n    // call_order now equals [\'one\',\'two\']\n});\ncall_order.push(\'one\')\n```\n\n<a name="times" />\n### times(n, callback)\n\nCalls the callback n times and accumulates results in the same manner\nyou would use with async.map.\n\n__Arguments__\n\n* n - The number of times to run the function.\n* callback - The function to call n times.\n\n__Example__\n\n```js\n// Pretend this is some complicated async factory\nvar createUser = function(id, callback) {\n  callback(null, {\n    id: \'user\' + id\n  })\n}\n// generate 5 users\nasync.times(5, function(n, next){\n    createUser(n, function(err, user) {\n      next(err, user)\n    })\n}, function(err, users) {\n  // we should now have 5 users\n});\n```\n\n<a name="timesSeries" />\n### timesSeries(n, callback)\n\nThe same as times only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. The results array will be in the same order as the original.\n\n\n## Utils\n\n<a name="memoize" />\n### memoize(fn, [hasher])\n\nCaches the results of an async function. When creating a hash to store function\nresults against, the callback is omitted from the hash and an optional hash\nfunction can be used.\n\nThe cache of results is exposed as the `memo` property of the function returned\nby `memoize`.\n\n__Arguments__\n\n* fn - the function you to proxy and cache results from.\n* hasher - an optional function for generating a custom hash for storing\n  results, it has all the arguments applied to it apart from the callback, and\n  must be synchronous.\n\n__Example__\n\n```js\nvar slow_fn = function (name, callback) {\n    // do something\n    callback(null, result);\n};\nvar fn = async.memoize(slow_fn);\n\n// fn can now be used as if it were slow_fn\nfn(\'some name\', function () {\n    // callback\n});\n```\n\n<a name="unmemoize" />\n### unmemoize(fn)\n\nUndoes a memoized function, reverting it to the original, unmemoized\nform. Comes handy in tests.\n\n__Arguments__\n\n* fn - the memoized function\n\n<a name="log" />\n### log(function, arguments)\n\nLogs the result of an async function to the console. Only works in node.js or\nin browsers that support console.log and console.error (such as FF and Chrome).\nIf multiple arguments are returned from the async function, console.log is\ncalled on each argument in order.\n\n__Arguments__\n\n* function - The function you want to eventually apply all arguments to.\n* arguments... - Any number of arguments to apply to the function.\n\n__Example__\n\n```js\nvar hello = function(name, callback){\n    setTimeout(function(){\n        callback(null, \'hello \' + name);\n    }, 1000);\n};\n```\n```js\nnode> async.log(hello, \'world\');\n\'hello world\'\n```\n\n---------------------------------------\n\n<a name="dir" />\n### dir(function, arguments)\n\nLogs the result of an async function to the console using console.dir to\ndisplay the properties of the resulting object. Only works in node.js or\nin browsers that support console.dir and console.error (such as FF and Chrome).\nIf multiple arguments are returned from the async function, console.dir is\ncalled on each argument in order.\n\n__Arguments__\n\n* function - The function you want to eventually apply all arguments to.\n* arguments... - Any number of arguments to apply to the function.\n\n__Example__\n\n```js\nvar hello = function(name, callback){\n    setTimeout(function(){\n        callback(null, {hello: name});\n    }, 1000);\n};\n```\n```js\nnode> async.dir(hello, \'world\');\n{hello: \'world\'}\n```\n\n---------------------------------------\n\n<a name="noConflict" />\n### noConflict()\n\nChanges the value of async back to its original value, returning a reference to the\nasync object.\n',
+329 silly resolved     readmeFilename: 'README.md',
+329 silly resolved     _id: 'async@0.2.10',
+329 silly resolved     _from: 'async@~0.2.9' },
+329 silly resolved   { name: 'sift',
+329 silly resolved     description: 'mongodb query style array filtering',
+329 silly resolved     version: '0.0.12',
+329 silly resolved     repository: {},
+329 silly resolved     engines: {},
+329 silly resolved     dependencies: {},
+329 silly resolved     devDependencies:
+329 silly resolved      { underscore: '*',
+329 silly resolved        colors: '*',
+329 silly resolved        benchmark: '*',
+329 silly resolved        validator: '*',
+329 silly resolved        mocha: '1.9.x',
+329 silly resolved        'expect.js': '0.2.x',
+329 silly resolved        sardines: '0.4.x',
+329 silly resolved        karma: '0.8.x' },
+329 silly resolved     main: './sift.js',
+329 silly resolved     scripts: { test: 'mocha ./test' },
+329 silly resolved     readme: '## MongoDB inspired array filtering [![Build Status](https://secure.travis-ci.org/crcn/sift.js.png)](https://secure.travis-ci.org/crcn/sift.js)\n\n## Features:\n\n- Supported operators: $in, $nin, $exists, $gte, $gt, $lte, $lt, $eq, $neq, $mod, $all, $and, $or, $nor, $not, $size, $type\n- Regexp searches\n- Function filtering\n- sub object searching\n- dot notation searching\n- Supports node.js, and web\n- Small (2 kb minified) library\n- Custom Expressions \n\n\n## Node.js Examples\n\n```javascript\n\nvar sift = require(\'sift\');\n\n//intersecting arrays\nvar sifted = sift({ $in: [\'hello\',\'world\'] }, [\'hello\',\'sifted\',\'array!\']); //[\'hello\']\n\n//regexp filter\nvar sifted = sift(/^j/, [\'craig\',\'john\',\'jake\']); //[\'john\',\'jake\']\n\n\n//A *sifter* is returned if the second parameter is omitted\nvar siftPeople = sift({\n\n\t//you can also filter against functions\n\tname: function(value) {\n\t\treturn value.length == 5;\n\t}\n});\n\n//filtered: [{ name: \'craig\' }]\nsiftPeople([{\n\tname: \'craig\',\n},\n{\n\tname: \'john\'\n},\n{\n\tname: \'jake\'\n}]);\n\n\n//you can test *single values* against your custom sifter\nsiftPeople.test({ name: \'sarah\' }); //true\nsiftPeople.test({ name: \'tim\' }); //false\\\n```\n\n## Browser Examples\n```html\n<html>\n\t<head>\n\t\t<script src="https://raw.github.com/crcn/sift.js/master/sift.min.js" type="text/javascript"></script>\n\t\t<script type="text/javascript">\n\t\t\t//regexp filter\n\t\t\tvar sifted = sift(/^j/, [\'craig\',\'john\',\'jake\']); //[\'john\',\'jake\']\n\t\t</script>\n\t</head>\n\t<body>\n\t</body>\n</html>\n```\n\n## API\n\n### .sift(filter[, array][, selectorFn])\n\n- `filter` - the filter to use against the target array\n- `array` - sifts against target array. Without this, a function is returned\n- `selectorFn` - selector for the values within the array. \n\nWith an array:\n\n```javascript\nsift({$exists:true}, [\'craig\',null]); //[\'craig\']\n```\n\nWithout an array, a sifter is returned:\n\n```javascript\nvar siftExists = sift({$exists:true});\n\nsiftExists([\'craig\',null]); //[\'craig\']\n```\n\nWith a selector:\n\n```javascript\nvar sifter = sift({$exists:true}, function(user) {\n\treturn !!user.name;\n});\n\n\nsifter([\n\t{\n\t\tname: "Craig"\n\t},\n\t{\n\t\tname: null\n\t}\n])\n```\n\nWith your sifter, you can also **test** values:\n\n```javascript\nsiftExists.test(null); //false\nsiftExists.test(\'craig\'); //true\n```\n\n\n## Supported Operators:\n\nSee MongoDB\'s [advanced queries](http://www.mongodb.org/display/DOCS/Advanced+Queries) for more info.\n\n### $in\n\narray value must be *$in* the given query:\n\nIntersecting two arrays:\n \n```javascript\n//filtered: [\'Brazil\']\nsift({ $in: [\'Costa Rica\',\'Brazil\'] }, [\'Brazil\',\'Haiti\',\'Peru\',\'Chile\']); \n``` \n\nHere\'s another example. This acts more like the $or operator:\n\n```javascript\nsift({ location: { $in: [\'Costa Rica\',\'Brazil\'] } }, { name: \'Craig\', location: \'Brazil\' });\n```\n\n### $nin\n\nOpposite of $in:\n\n```javascript\n//filtered: [\'Haiti\',\'Peru\',\'Chile\']\nsift({ $nin: [\'Costa Rica\',\'Brazil\'] }, [\'Brazil\',\'Haiti\',\'Peru\',\'Chile\']); \n``` \n\n### $exists\n\nChecks if whether a value exists:\n\n```javascript\n//filtered: [\'Craig\',\'Tim\']\nsift({ $exists: true }, [\'Craig\',null,\'Tim\']); \n``` \n\nYou can also filter out values that don\'t exist\n\n```javascript\n//filtered: [{ name: \'Craig\', city: \'Minneapolis\' }]\nsift({ city: { $exists: false } }, [ { name: \'Craig\', city: \'Minneapolis\' }, { name: \'Tim\' }]); \n```\n\n### $gte\n\nChecks if a number is >= value:\n\n```javascript\n//filtered: [2, 3]\nsift({ $gte: 2 }, [0, 1, 2, 3]); \n```\n\n### $gt\n\nChecks if a number is > value:\n\n```javascript\n//filtered: [3]\nsift({ $gt: 2 }, [0, 1, 2, 3]); \n```\n\n### $lte\n\nChecks if a number is <= value.\n\n```javascript\n//filtered: [0, 1, 2]\nsift({ $lte: 2 }, [0, 1, 2, 3]); \n```\n\n### $lt\n\nChecks if number is < value.\n\n```javascript\n//filtered: [0, 1]\nsift({ $lt: 2 }, [0, 1, 2, 3]); \n```\n\n### $eq\n\nChecks if query == value. Note that **$eq can be omitted**. For **$eq**, and **$neq**\n\n```javascript\n//filtered: [{ state: \'MN\' }]\nsift({ state: {$eq: \'MN\' }}, [{ state: \'MN\' }, { state: \'CA\' }, { state: \'WI\' }); \n```\n\nOr:\n\n```javascript\n//filtered: [{ state: \'MN\' }]\nsift({ state: \'MN\' }, [{ state: \'MN\' }, { state: \'CA\' }, { state: \'WI\' }); \n```\n\n### $ne\n\nChecks if query != value.\n\n```javascript\n//filtered: [{ state: \'CA\' }, { state: \'WI\'}] \nsift({ state: {$ne: \'MN\' }}, [{ state: \'MN\' }, { state: \'CA\' }, { state: \'WI\' }); \n```\n\n### $mod\n\nModulus:\n\n```javascript\n//filtered: [300, 600]\nsift({ $mod: [3, 0] }, [100, 200, 300, 400, 500, 600]); \n```\n\n### $all\n\nvalues must match **everything** in array:\n\n```javascript\n//filtered: [ { tags: [\'books\',\'programming\',\'travel\' ]} ]\nsift({ tags: {$all: [\'books\',\'programming\'] }}, [\n{ tags: [\'books\',\'programming\',\'travel\' ] }, \n{ tags: [\'travel\',\'cooking\'] } ]); \n```\n\n### $and\n\nability to use an array of expressions. All expressions must test true.\n\n```javascript\n//filtered: [ { name: \'Craig\', state: \'MN\' }]\n\nsift({ $and: [ { name: \'Craig\' }, { state: \'MN\' } ] }, [ \n{ name: \'Craig\', state: \'MN\' }, \n{ name: \'Tim\', state: \'MN\' }, \n{ name: \'Joe\', state: \'CA\' } ]); \n```\n\n### $or\n\nOR array of expressions.\n\n```javascript\n//filtered: [ { name: \'Craig\', state: \'MN\' }, { name: \'Tim\', state: \'MN\' }]\nsift({ $or: [ { name: \'Craig\' }, { state: \'MN\' } ] }, [ \n{ name: \'Craig\', state: \'MN\' }, \n{ name: \'Tim\', state: \'MN\' }, \n{ name: \'Joe\', state: \'CA\' } ]); \n```\n\n### $nor\n\nopposite of or:\n\n```javascript\n//filtered: [ { name: \'Tim\', state: \'MN\' }, { name: \'Joe\', state: \'CA\' }]\nsift({ $nor: [ { name: \'Craig\' }, { state: \'MN\' } ] }, [ \n{ name: \'Craig\', state: \'MN\' }, \n{ name: \'Tim\', state: \'MN\' }, \n{ name: \'Joe\', state: \'CA\' } ]); \n```\n\n\n### $size\n\nMatches an array - must match given size:\n\n```javascript\n//filtered: [\'food\',\'cooking\']\nsift({ tags: { $size: 2 } }, [ { tags: [\'food\',\'cooking\'] }, { tags: [\'traveling\'] }]); \n```\n\n### $type\n\nMatches a values based on the type\n\n```javascript\nsift({ $type: Date }, [new Date(), 4342, \'hello world\']); //returns single date\nsift({ $type: String }, [new Date(), 4342, \'hello world\']); //returns [\'hello world\']\n```\n\n### $not\n\nNot expression:\n\n```javascript\nsift({$not:{$in:[\'craig\',\'tim\']}}, [\'craig\',\'tim\',\'jake\']); //[\'jake\']\nsift({$not:{$size:5}}, [\'craig\',\'tim\',\'jake\']); //[\'tim\',\'jake\']\n```\n\n## sub object Searching\n\n\n```javascript\nvar people = [{\n\tname: \'craig\',\n\taddress: {\n\t\tcity: \'Minneapolis\'\n\t}\n},\n{\n\tname: \'tim\',\n\taddress: {\n\t\tcity: \'St. Paul\'\n\t}\n}];\n\nvar sifted = sift({ address: { city: \'Minneapolis\' }}, people); // count = 1\n\n//or\nvar sifted = sift({\'address.city\': \'minneapolis\'}, people);//count = 1\n```\n\n\n## Custom Expressions\n\nYou can add your own expressions. For instance - say you want to do some bitmask filtering, you could add this example:\n\n```javascript\n\nsift.use({\n\toperations: {\n\t\tband: function(a, b) {\n\t\t\treturn (a & b) ? 0 : -1; // 0 = exists, -1 = doesn\'t exist\n\t\t}\n\t}\n})\n\n// ops\nvar IS_ANIMAL = 2,\nIS_PERSON     = IS_ANIMAL   << 1,\nIS_DOG        = IS_PERSON   << 1,\nEATS_CEREAL   = IS_DOG      << 1,\nEATS_BONES    = EATS_CEREAL << 1;\n\nsift({ $band: IS_PERSON }, [ S_PERSON|EATS_CEREAL, IS_DOG|EATS_BONES, IS_PERSON ]);\n',
+329 silly resolved     readmeFilename: 'README.md',
+329 silly resolved     _id: 'sift@0.0.12',
+329 silly resolved     _from: 'sift@0.0.12' },
+329 silly resolved   { name: 'type-component',
+329 silly resolved     description: 'Cross-browser type assertions (less broken typeof)',
+329 silly resolved     version: '0.0.1',
+329 silly resolved     keywords: [ 'typeof', 'type', 'utility' ],
+329 silly resolved     dependencies: {},
+329 silly resolved     component: { scripts: [Object] },
+329 silly resolved     readme: '\n# type\n\n  Type assertions aka less-broken `typeof`.\n\n## Example\n\n```js\nvar type = require(\'type\');\n\nvar obj = new Date;\nif (type(obj) == \'date\') ...\n```\n\n## API\n\n```js\ntype(new Date) == \'date\'\ntype({}) == \'object\'\ntype(null) == \'null\'\ntype(undefined) == \'undefined\'\ntype("hey") == \'string\'\ntype(true) == \'boolean\'\ntype(false) == \'boolean\'\ntype(12) == \'number\'\ntype(type) == \'function\'\ntype(/asdf/) == \'regexp\'\ntype((function(){ return arguments })()) == \'arguments\'\ntype([]) == \'array\'\n```\n\n## License\n\n  MIT',
+329 silly resolved     readmeFilename: 'Readme.md',
+329 silly resolved     _id: 'type-component@0.0.1',
+329 silly resolved     _from: 'type-component@0.0.1' },
+329 silly resolved   { author:
+329 silly resolved      { name: 'Joshua Holbrook',
+329 silly resolved        email: 'josh.holbrook@gmail.com',
+329 silly resolved        url: 'http://jesusabdullah.net' },
+329 silly resolved     name: 'flatten',
+329 silly resolved     description: 'Flatten arbitrarily nested arrays into a non-nested list of non-array items',
+329 silly resolved     version: '0.0.1',
+329 silly resolved     repository:
+329 silly resolved      { type: 'git',
+329 silly resolved        url: 'git://github.com/jesusabdullah/node-flatten.git' },
+329 silly resolved     main: './index.js',
+329 silly resolved     scripts: { test: 'node ./test.js' },
+329 silly resolved     dependencies: {},
+329 silly resolved     devDependencies: {},
+329 silly resolved     optionalDependencies: {},
+329 silly resolved     engines: { node: '*' },
+329 silly resolved     readme: '# flatten\n\nA tiny utility to flatten arrays of arrays (of arrays, etc., recursively, infinitely or to an optional depth) into a single array of non-arrays.\n\n## example:\n\n```js\n> var flatten = require(\'flatten\');\nundefined\n> flatten([1, [2, 3], [4, 5, 6], [7, [8, 9]], 10])\n[ 1,\n  2,\n  3,\n  4,\n  5,\n  6,\n  7,\n  8,\n  9,\n  10 ]\n> flatten([1, [2, [3, [4, [5]]]]], 2)\n[ 1,\n  2,\n  3,\n  [ 4, [ 5 ] ] ]\n```\n\n## install:\n\n    npm install flatten\n\n## license:\n\nMIT/X11.\n',
+329 silly resolved     readmeFilename: 'README.md',
+329 silly resolved     bugs: { url: 'https://github.com/jesusabdullah/node-flatten/issues' },
+329 silly resolved     _id: 'flatten@0.0.1',
+329 silly resolved     _from: 'flatten@0.0.x' },
+329 silly resolved   { name: 'toarray',
+329 silly resolved     version: '0.0.1',
+329 silly resolved     description: 'I find myself writing `item = item instanceof Array ? item : [item]` a lot, so I decided to make a simple library to does it for me. A few examples:',
+329 silly resolved     main: './index.js',
+329 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+329 silly resolved     repository: { type: 'git', url: 'git://github.com/crcn/toarray.js.git' },
+329 silly resolved     devDependencies: { mocha: '1.9.x', 'expect.js': '0.2.x' },
+329 silly resolved     author: '',
+329 silly resolved     license: 'BSD',
+329 silly resolved     readmeFilename: 'README.md',
+329 silly resolved     readme: 'I find myself writing `item = item instanceof Array ? item : [item]` a lot, so I decided to make a simple library to does\nit for me. A few examples:\n\n```javascript\ntoArray = require("toarray");\n\nconsole.log(toArray("hello-world!")); //["hello-world!"]\nconsole.log(toArray(["hello-world!"])); //["hello-world!"]\nconsole.log(toArray(undefined)); //[]\n```\n',
+329 silly resolved     _id: 'toarray@0.0.1',
+329 silly resolved     _from: 'toarray@0.0.1',
+329 silly resolved     bugs: { url: 'https://github.com/crcn/toarray.js/issues' },
+329 silly resolved     dist: { shasum: 'a115430a84a4be91b2746f62b9e07c83a3fb8c45' },
+329 silly resolved     _resolved: 'http://registry.npmjs.org/toarray/-/toarray-0.0.1.tgz' },
+329 silly resolved   { name: 'tq',
+329 silly resolved     description: 'tiny queue',
+329 silly resolved     version: '0.2.5',
+329 silly resolved     repository: {},
+329 silly resolved     engines: {},
+329 silly resolved     dependencies: { hurryup: '0.0.x' },
+329 silly resolved     devDependencies: { 'expect.js': '0.2.x', mocha: '1.8.x' },
+329 silly resolved     scripts: { test: 'mocha --reporter list' },
+329 silly resolved     main: './lib/index.js',
+329 silly resolved     readme: '[![Build Status](https://travis-ci.org/crcn/tq.js.png)](https://travis-ci.org/crcn/tq.js)\n\nTQ is a flexible, tiny queue library for node.js\n\n## Example\n\n```javascript\nvar queue = require("tq").create().start();\n\n```\n\nAnother variation\n\n```javascript\nvar queue = require(\'tq\').queue();\n\n\n[\n\tfunction() {\n\t\tthis();\n\t},\n\tfunction() {\n\t\tthis()\n\t},\n\tfunction() {\n\t\tthis();\n\t}\n].forEach(queue.push);\n\nqueue.start();\n```\n\n\n## Api\n\n\n### queue.push \npushes a queue to the end\n\n### queue.unshift\npushes a queue to the beginning (next up)\n\n### queue.now(callback)\n\n### queue.then(callback)\n\n### callback queue.wait()\n\n### queue.start\nstarts a queue\n\n### queue.stop\nstops a queue',
+329 silly resolved     readmeFilename: 'README.md',
+329 silly resolved     _id: 'tq@0.2.5',
+329 silly resolved     _from: 'tq@0.2.x' },
+329 silly resolved   { name: 'underscore',
+329 silly resolved     description: 'JavaScript\'s functional programming helper library.',
+329 silly resolved     homepage: 'http://underscorejs.org',
+329 silly resolved     keywords: [ 'util', 'functional', 'server', 'client', 'browser' ],
+329 silly resolved     author: { name: 'Jeremy Ashkenas', email: 'jeremy@documentcloud.org' },
+329 silly resolved     repository:
+329 silly resolved      { type: 'git',
+329 silly resolved        url: 'git://github.com/jashkenas/underscore.git' },
+329 silly resolved     main: 'underscore.js',
+329 silly resolved     version: '1.5.2',
+329 silly resolved     devDependencies: { phantomjs: '1.9.0-1' },
+329 silly resolved     scripts: { test: 'phantomjs test/vendor/runner.js test/index.html?noglobals=true' },
+329 silly resolved     licenses: [ [Object] ],
+329 silly resolved     files: [ 'underscore.js', 'underscore-min.js', 'LICENSE' ],
+329 silly resolved     readme: '                       __\n                      /\\ \\                                                         __\n     __  __    ___    \\_\\ \\     __   _ __   ____    ___    ___   _ __    __       /\\_\\    ____\n    /\\ \\/\\ \\ /\' _ `\\  /\'_  \\  /\'__`\\/\\  __\\/ ,__\\  / ___\\ / __`\\/\\  __\\/\'__`\\     \\/\\ \\  /\',__\\\n    \\ \\ \\_\\ \\/\\ \\/\\ \\/\\ \\ \\ \\/\\  __/\\ \\ \\//\\__, `\\/\\ \\__//\\ \\ \\ \\ \\ \\//\\  __/  __  \\ \\ \\/\\__, `\\\n     \\ \\____/\\ \\_\\ \\_\\ \\___,_\\ \\____\\\\ \\_\\\\/\\____/\\ \\____\\ \\____/\\ \\_\\\\ \\____\\/\\_\\ _\\ \\ \\/\\____/\n      \\/___/  \\/_/\\/_/\\/__,_ /\\/____/ \\/_/ \\/___/  \\/____/\\/___/  \\/_/ \\/____/\\/_//\\ \\_\\ \\/___/\n                                                                                  \\ \\____/\n                                                                                   \\/___/\n\nUnderscore.js is a utility-belt library for JavaScript that provides\nsupport for the usual functional suspects (each, map, reduce, filter...)\nwithout extending any core JavaScript objects.\n\nFor Docs, License, Tests, and pre-packed downloads, see:\nhttp://underscorejs.org\n\nUnderscore is an open-sourced component of DocumentCloud:\nhttps://github.com/documentcloud\n\nMany thanks to our contributors:\nhttps://github.com/jashkenas/underscore/contributors\n',
+329 silly resolved     readmeFilename: 'README.md',
+329 silly resolved     bugs: { url: 'https://github.com/jashkenas/underscore/issues' },
+329 silly resolved     _id: 'underscore@1.5.2',
+329 silly resolved     _from: 'underscore@~1.5.2' } ]
+330 info install flatstack@0.0.7 into /usr/local/lib/node_modules/brasslet
+331 info install async@0.2.10 into /usr/local/lib/node_modules/brasslet
+332 info install sift@0.0.12 into /usr/local/lib/node_modules/brasslet
+333 info install type-component@0.0.1 into /usr/local/lib/node_modules/brasslet
+334 info install flatten@0.0.1 into /usr/local/lib/node_modules/brasslet
+335 info install toarray@0.0.1 into /usr/local/lib/node_modules/brasslet
+336 info install tq@0.2.5 into /usr/local/lib/node_modules/brasslet
+337 info install underscore@1.5.2 into /usr/local/lib/node_modules/brasslet
+338 info installOne flatstack@0.0.7
+339 info installOne async@0.2.10
+340 info installOne sift@0.0.12
+341 info installOne type-component@0.0.1
+342 info installOne flatten@0.0.1
+343 info installOne toarray@0.0.1
+344 info installOne tq@0.2.5
+345 info installOne underscore@1.5.2
+346 info /usr/local/lib/node_modules/brasslet/node_modules/flatstack unbuild
+347 info /usr/local/lib/node_modules/brasslet/node_modules/async unbuild
+348 info /usr/local/lib/node_modules/brasslet/node_modules/sift unbuild
+349 info /usr/local/lib/node_modules/brasslet/node_modules/type-component unbuild
+350 info /usr/local/lib/node_modules/brasslet/node_modules/flatten unbuild
+351 info /usr/local/lib/node_modules/brasslet/node_modules/toarray unbuild
+352 info /usr/local/lib/node_modules/brasslet/node_modules/tq unbuild
+353 info /usr/local/lib/node_modules/brasslet/node_modules/underscore unbuild
+354 verbose tar unpack /Users/craig/.npm/flatstack/0.0.7/package.tgz
+355 silly lockFile 741e950a--brasslet-node-modules-flatstack tar:///usr/local/lib/node_modules/brasslet/node_modules/flatstack
+356 verbose lock tar:///usr/local/lib/node_modules/brasslet/node_modules/flatstack /Users/craig/.npm/741e950a--brasslet-node-modules-flatstack.lock
+357 silly lockFile 85b772bd--npm-flatstack-0-0-7-package-tgz tar:///Users/craig/.npm/flatstack/0.0.7/package.tgz
+358 verbose lock tar:///Users/craig/.npm/flatstack/0.0.7/package.tgz /Users/craig/.npm/85b772bd--npm-flatstack-0-0-7-package-tgz.lock
+359 verbose tar unpack /Users/craig/.npm/sift/0.0.12/package.tgz
+360 silly lockFile 16820ed6-dules-brasslet-node-modules-sift tar:///usr/local/lib/node_modules/brasslet/node_modules/sift
+361 verbose lock tar:///usr/local/lib/node_modules/brasslet/node_modules/sift /Users/craig/.npm/16820ed6-dules-brasslet-node-modules-sift.lock
+362 silly lockFile 435a8de7-raig-npm-sift-0-0-12-package-tgz tar:///Users/craig/.npm/sift/0.0.12/package.tgz
+363 verbose lock tar:///Users/craig/.npm/sift/0.0.12/package.tgz /Users/craig/.npm/435a8de7-raig-npm-sift-0-0-12-package-tgz.lock
+364 verbose tar unpack /Users/craig/.npm/async/0.2.10/package.tgz
+365 silly lockFile 881125b7-ules-brasslet-node-modules-async tar:///usr/local/lib/node_modules/brasslet/node_modules/async
+366 verbose lock tar:///usr/local/lib/node_modules/brasslet/node_modules/async /Users/craig/.npm/881125b7-ules-brasslet-node-modules-async.lock
+367 silly lockFile 3783ba22-aig-npm-async-0-2-10-package-tgz tar:///Users/craig/.npm/async/0.2.10/package.tgz
+368 verbose lock tar:///Users/craig/.npm/async/0.2.10/package.tgz /Users/craig/.npm/3783ba22-aig-npm-async-0-2-10-package-tgz.lock
+369 verbose tar unpack /Users/craig/.npm/type-component/0.0.1/package.tgz
+370 silly lockFile a0e74196-slet-node-modules-type-component tar:///usr/local/lib/node_modules/brasslet/node_modules/type-component
+371 verbose lock tar:///usr/local/lib/node_modules/brasslet/node_modules/type-component /Users/craig/.npm/a0e74196-slet-node-modules-type-component.lock
+372 silly lockFile 719de275-type-component-0-0-1-package-tgz tar:///Users/craig/.npm/type-component/0.0.1/package.tgz
+373 verbose lock tar:///Users/craig/.npm/type-component/0.0.1/package.tgz /Users/craig/.npm/719de275-type-component-0-0-1-package-tgz.lock
+374 verbose tar unpack /Users/craig/.npm/flatten/0.0.1/package.tgz
+375 silly lockFile 835aee16-es-brasslet-node-modules-flatten tar:///usr/local/lib/node_modules/brasslet/node_modules/flatten
+376 verbose lock tar:///usr/local/lib/node_modules/brasslet/node_modules/flatten /Users/craig/.npm/835aee16-es-brasslet-node-modules-flatten.lock
+377 silly lockFile b606f5f2-ig-npm-flatten-0-0-1-package-tgz tar:///Users/craig/.npm/flatten/0.0.1/package.tgz
+378 verbose lock tar:///Users/craig/.npm/flatten/0.0.1/package.tgz /Users/craig/.npm/b606f5f2-ig-npm-flatten-0-0-1-package-tgz.lock
+379 verbose tar unpack /Users/craig/.npm/toarray/0.0.1/package.tgz
+380 silly lockFile 009ad780-es-brasslet-node-modules-toarray tar:///usr/local/lib/node_modules/brasslet/node_modules/toarray
+381 verbose lock tar:///usr/local/lib/node_modules/brasslet/node_modules/toarray /Users/craig/.npm/009ad780-es-brasslet-node-modules-toarray.lock
+382 silly lockFile 8418bcb8-ig-npm-toarray-0-0-1-package-tgz tar:///Users/craig/.npm/toarray/0.0.1/package.tgz
+383 verbose lock tar:///Users/craig/.npm/toarray/0.0.1/package.tgz /Users/craig/.npm/8418bcb8-ig-npm-toarray-0-0-1-package-tgz.lock
+384 verbose tar unpack /Users/craig/.npm/tq/0.2.5/package.tgz
+385 silly lockFile 5fa2ab7f-modules-brasslet-node-modules-tq tar:///usr/local/lib/node_modules/brasslet/node_modules/tq
+386 verbose lock tar:///usr/local/lib/node_modules/brasslet/node_modules/tq /Users/craig/.npm/5fa2ab7f-modules-brasslet-node-modules-tq.lock
+387 silly lockFile 3a58d307-s-craig-npm-tq-0-2-5-package-tgz tar:///Users/craig/.npm/tq/0.2.5/package.tgz
+388 verbose lock tar:///Users/craig/.npm/tq/0.2.5/package.tgz /Users/craig/.npm/3a58d307-s-craig-npm-tq-0-2-5-package-tgz.lock
+389 verbose tar unpack /Users/craig/.npm/underscore/1.5.2/package.tgz
+390 silly lockFile ce84f8b2-brasslet-node-modules-underscore tar:///usr/local/lib/node_modules/brasslet/node_modules/underscore
+391 verbose lock tar:///usr/local/lib/node_modules/brasslet/node_modules/underscore /Users/craig/.npm/ce84f8b2-brasslet-node-modules-underscore.lock
+392 silly lockFile 1e873544-npm-underscore-1-5-2-package-tgz tar:///Users/craig/.npm/underscore/1.5.2/package.tgz
+393 verbose lock tar:///Users/craig/.npm/underscore/1.5.2/package.tgz /Users/craig/.npm/1e873544-npm-underscore-1-5-2-package-tgz.lock
+394 silly gunzTarPerm modes [ '755', '644' ]
+395 silly gunzTarPerm modes [ '755', '644' ]
+396 silly gunzTarPerm modes [ '755', '644' ]
+397 silly gunzTarPerm modes [ '755', '644' ]
+398 silly gunzTarPerm modes [ '755', '644' ]
+399 silly gunzTarPerm modes [ '755', '644' ]
+400 silly gunzTarPerm modes [ '755', '644' ]
+401 silly gunzTarPerm modes [ '755', '644' ]
+402 silly gunzTarPerm extractEntry package.json
+403 silly gunzTarPerm extractEntry package.json
+404 silly gunzTarPerm extractEntry package.json
+405 silly gunzTarPerm extractEntry package.json
+406 silly gunzTarPerm extractEntry package.json
+407 silly gunzTarPerm extractEntry package.json
+408 silly gunzTarPerm extractEntry package.json
+409 silly gunzTarPerm extractEntry package.json
+410 silly gunzTarPerm extractEntry .npmignore
+411 silly gunzTarPerm extractEntry README.md
+412 silly gunzTarPerm extractEntry README.md
+413 silly gunzTarPerm extractEntry LICENSE
+414 silly gunzTarPerm extractEntry component.json
+415 silly gunzTarPerm extractEntry lib/async.js
+416 silly gunzTarPerm extractEntry .npmignore
+417 silly gunzTarPerm extractEntry index.js
+418 silly gunzTarPerm extractEntry README.md
+419 silly gunzTarPerm extractEntry index.js
+420 silly gunzTarPerm extractEntry .npmignore
+421 silly gunzTarPerm extractEntry README.md
+422 silly gunzTarPerm extractEntry .npmignore
+423 silly gunzTarPerm extractEntry README.md
+424 silly gunzTarPerm extractEntry .npmignore
+425 silly gunzTarPerm extractEntry README.md
+426 silly gunzTarPerm extractEntry README.md
+427 silly gunzTarPerm extractEntry LICENSE
+428 silly gunzTarPerm extractEntry Makefile
+429 silly gunzTarPerm extractEntry Readme.md
+430 silly gunzTarPerm extractEntry lib/index.js
+431 silly gunzTarPerm extractEntry test/async-arg-len-test.js
+432 silly gunzTarPerm extractEntry .cupboard
+433 silly gunzTarPerm extractEntry .travis.yml
+434 silly gunzTarPerm extractEntry test.js
+435 silly gunzTarPerm extractEntry index.js
+436 silly gunzTarPerm extractEntry test/toarray-test.js
+437 silly gunzTarPerm extractEntry karma.conf.js
+438 silly gunzTarPerm extractEntry request.config.js
+439 silly gunzTarPerm extractEntry underscore-min.js
+440 silly gunzTarPerm extractEntry underscore.js
+441 silly gunzTarPerm extractEntry test/child-test.js
+442 silly gunzTarPerm extractEntry test/sync-async-test.js
+443 silly gunzTarPerm extractEntry sift.js
+444 silly gunzTarPerm extractEntry sift.min.js
+445 silly gunzTarPerm extractEntry makefile
+446 silly gunzTarPerm extractEntry modules/sift/sift.js
+447 silly gunzTarPerm extractEntry benchmark/benchmark.js
+448 silly gunzTarPerm extractEntry examples/ex1.js
+449 silly gunzTarPerm extractEntry examples/realtime-people.js
+450 silly gunzTarPerm extractEntry examples/test.html
+451 silly gunzTarPerm extractEntry examples/tmp/people.json
+452 silly gunzTarPerm extractEntry .travis.yml
+453 silly gunzTarPerm extractEntry .cupboard
+454 silly gunzTarPerm extractEntry test/custom-test.js
+455 silly gunzTarPerm extractEntry test/dates-test.js
+456 silly gunzTarPerm extractEntry test/objects-test.js
+457 silly gunzTarPerm extractEntry test/simple-numbers-test.js
+458 silly gunzTarPerm extractEntry test/simple-string-test.js
+459 silly gunzTarPerm extractEntry test/undefined-test.js
+460 silly gunzTarPerm extractEntry component.json
+461 silly gunzTarPerm extractEntry test/type.js
+462 silly gunzTarPerm extractEntry dump.rdb
+463 silly gunzTarPerm extractEntry lib/index.js
+464 silly gunzTarPerm extractEntry test/tq-test.js
+465 silly lockFile 835aee16-es-brasslet-node-modules-flatten tar:///usr/local/lib/node_modules/brasslet/node_modules/flatten
+466 silly lockFile 835aee16-es-brasslet-node-modules-flatten tar:///usr/local/lib/node_modules/brasslet/node_modules/flatten
+467 silly lockFile b606f5f2-ig-npm-flatten-0-0-1-package-tgz tar:///Users/craig/.npm/flatten/0.0.1/package.tgz
+468 silly lockFile b606f5f2-ig-npm-flatten-0-0-1-package-tgz tar:///Users/craig/.npm/flatten/0.0.1/package.tgz
+469 silly lockFile 009ad780-es-brasslet-node-modules-toarray tar:///usr/local/lib/node_modules/brasslet/node_modules/toarray
+470 silly lockFile 009ad780-es-brasslet-node-modules-toarray tar:///usr/local/lib/node_modules/brasslet/node_modules/toarray
+471 silly lockFile 8418bcb8-ig-npm-toarray-0-0-1-package-tgz tar:///Users/craig/.npm/toarray/0.0.1/package.tgz
+472 silly lockFile 8418bcb8-ig-npm-toarray-0-0-1-package-tgz tar:///Users/craig/.npm/toarray/0.0.1/package.tgz
+473 info preinstall flatten@0.0.1
+474 verbose readDependencies using package.json deps
+475 info preinstall toarray@0.0.1
+476 verbose readDependencies using package.json deps
+477 silly resolved []
+478 verbose about to build /usr/local/lib/node_modules/brasslet/node_modules/flatten
+479 info build /usr/local/lib/node_modules/brasslet/node_modules/flatten
+480 verbose linkStuff [ false,
+480 verbose linkStuff   false,
+480 verbose linkStuff   false,
+480 verbose linkStuff   '/usr/local/lib/node_modules/brasslet/node_modules' ]
+481 info linkStuff flatten@0.0.1
+482 verbose readDependencies using package.json deps
+483 verbose readDependencies using package.json deps
+484 silly resolved []
+485 verbose about to build /usr/local/lib/node_modules/brasslet/node_modules/toarray
+486 info build /usr/local/lib/node_modules/brasslet/node_modules/toarray
+487 verbose linkStuff [ false,
+487 verbose linkStuff   false,
+487 verbose linkStuff   false,
+487 verbose linkStuff   '/usr/local/lib/node_modules/brasslet/node_modules' ]
+488 info linkStuff toarray@0.0.1
+489 verbose linkBins flatten@0.0.1
+490 verbose linkMans flatten@0.0.1
+491 verbose rebuildBundles flatten@0.0.1
+492 info install flatten@0.0.1
+493 info postinstall flatten@0.0.1
+494 verbose linkBins toarray@0.0.1
+495 verbose linkMans toarray@0.0.1
+496 verbose rebuildBundles toarray@0.0.1
+497 info install toarray@0.0.1
+498 silly lockFile a0e74196-slet-node-modules-type-component tar:///usr/local/lib/node_modules/brasslet/node_modules/type-component
+499 silly lockFile a0e74196-slet-node-modules-type-component tar:///usr/local/lib/node_modules/brasslet/node_modules/type-component
+500 silly lockFile 719de275-type-component-0-0-1-package-tgz tar:///Users/craig/.npm/type-component/0.0.1/package.tgz
+501 silly lockFile 719de275-type-component-0-0-1-package-tgz tar:///Users/craig/.npm/type-component/0.0.1/package.tgz
+502 info postinstall toarray@0.0.1
+503 silly lockFile 741e950a--brasslet-node-modules-flatstack tar:///usr/local/lib/node_modules/brasslet/node_modules/flatstack
+504 silly lockFile 741e950a--brasslet-node-modules-flatstack tar:///usr/local/lib/node_modules/brasslet/node_modules/flatstack
+505 info preinstall type-component@0.0.1
+506 silly lockFile 85b772bd--npm-flatstack-0-0-7-package-tgz tar:///Users/craig/.npm/flatstack/0.0.7/package.tgz
+507 silly lockFile 85b772bd--npm-flatstack-0-0-7-package-tgz tar:///Users/craig/.npm/flatstack/0.0.7/package.tgz
+508 verbose readDependencies using package.json deps
+509 verbose readDependencies using package.json deps
+510 silly resolved []
+511 verbose about to build /usr/local/lib/node_modules/brasslet/node_modules/type-component
+512 info build /usr/local/lib/node_modules/brasslet/node_modules/type-component
+513 verbose linkStuff [ false,
+513 verbose linkStuff   false,
+513 verbose linkStuff   false,
+513 verbose linkStuff   '/usr/local/lib/node_modules/brasslet/node_modules' ]
+514 info linkStuff type-component@0.0.1
+515 verbose linkBins type-component@0.0.1
+516 verbose linkMans type-component@0.0.1
+517 verbose rebuildBundles type-component@0.0.1
+518 info install type-component@0.0.1
+519 info preinstall flatstack@0.0.7
+520 info postinstall type-component@0.0.1
+521 verbose readDependencies using package.json deps
+522 verbose readDependencies using package.json deps
+523 silly resolved []
+524 verbose about to build /usr/local/lib/node_modules/brasslet/node_modules/flatstack
+525 info build /usr/local/lib/node_modules/brasslet/node_modules/flatstack
+526 verbose linkStuff [ false,
+526 verbose linkStuff   false,
+526 verbose linkStuff   false,
+526 verbose linkStuff   '/usr/local/lib/node_modules/brasslet/node_modules' ]
+527 info linkStuff flatstack@0.0.7
+528 verbose linkBins flatstack@0.0.7
+529 verbose linkMans flatstack@0.0.7
+530 verbose rebuildBundles flatstack@0.0.7
+531 info install flatstack@0.0.7
+532 info postinstall flatstack@0.0.7
+533 silly lockFile 5fa2ab7f-modules-brasslet-node-modules-tq tar:///usr/local/lib/node_modules/brasslet/node_modules/tq
+534 silly lockFile 5fa2ab7f-modules-brasslet-node-modules-tq tar:///usr/local/lib/node_modules/brasslet/node_modules/tq
+535 silly lockFile 3a58d307-s-craig-npm-tq-0-2-5-package-tgz tar:///Users/craig/.npm/tq/0.2.5/package.tgz
+536 silly lockFile 3a58d307-s-craig-npm-tq-0-2-5-package-tgz tar:///Users/craig/.npm/tq/0.2.5/package.tgz
+537 info preinstall tq@0.2.5
+538 verbose readDependencies using package.json deps
+539 verbose readDependencies using package.json deps
+540 verbose cache add [ 'hurryup@0.0.x', null ]
+541 verbose cache add name=undefined spec="hurryup@0.0.x" args=["hurryup@0.0.x",null]
+542 verbose parsed url { protocol: null,
+542 verbose parsed url   slashes: null,
+542 verbose parsed url   auth: null,
+542 verbose parsed url   host: null,
+542 verbose parsed url   port: null,
+542 verbose parsed url   hostname: null,
+542 verbose parsed url   hash: null,
+542 verbose parsed url   search: null,
+542 verbose parsed url   query: null,
+542 verbose parsed url   pathname: 'hurryup@0.0.x',
+542 verbose parsed url   path: 'hurryup@0.0.x',
+542 verbose parsed url   href: 'hurryup@0.0.x' }
+543 verbose cache add name="hurryup" spec="0.0.x" args=["hurryup","0.0.x"]
+544 verbose parsed url { protocol: null,
+544 verbose parsed url   slashes: null,
+544 verbose parsed url   auth: null,
+544 verbose parsed url   host: null,
+544 verbose parsed url   port: null,
+544 verbose parsed url   hostname: null,
+544 verbose parsed url   hash: null,
+544 verbose parsed url   search: null,
+544 verbose parsed url   query: null,
+544 verbose parsed url   pathname: '0.0.x',
+544 verbose parsed url   path: '0.0.x',
+544 verbose parsed url   href: '0.0.x' }
+545 verbose addNamed [ 'hurryup', '0.0.x' ]
+546 verbose addNamed [ null, '>=0.0.0-0 <0.1.0-0' ]
+547 silly lockFile da2b328d-hurryup-0-0-x hurryup@0.0.x
+548 verbose lock hurryup@0.0.x /Users/craig/.npm/da2b328d-hurryup-0-0-x.lock
+549 silly addNameRange { name: 'hurryup', range: '>=0.0.0-0 <0.1.0-0', hasData: false }
+550 verbose url raw hurryup
+551 verbose url resolving [ 'http://registry.npmjs.org/', './hurryup' ]
+552 verbose url resolved http://registry.npmjs.org/hurryup
+553 info trying registry request attempt 1 at 16:49:05
+554 verbose etag "6YFQJXCNQGX54X73H73W2Y4VD"
+555 http GET http://registry.npmjs.org/hurryup
+556 silly lockFile ce84f8b2-brasslet-node-modules-underscore tar:///usr/local/lib/node_modules/brasslet/node_modules/underscore
+557 silly lockFile ce84f8b2-brasslet-node-modules-underscore tar:///usr/local/lib/node_modules/brasslet/node_modules/underscore
+558 silly lockFile 1e873544-npm-underscore-1-5-2-package-tgz tar:///Users/craig/.npm/underscore/1.5.2/package.tgz
+559 silly lockFile 1e873544-npm-underscore-1-5-2-package-tgz tar:///Users/craig/.npm/underscore/1.5.2/package.tgz
+560 info preinstall underscore@1.5.2
+561 verbose readDependencies using package.json deps
+562 verbose readDependencies using package.json deps
+563 silly resolved []
+564 verbose about to build /usr/local/lib/node_modules/brasslet/node_modules/underscore
+565 info build /usr/local/lib/node_modules/brasslet/node_modules/underscore
+566 verbose linkStuff [ false,
+566 verbose linkStuff   false,
+566 verbose linkStuff   false,
+566 verbose linkStuff   '/usr/local/lib/node_modules/brasslet/node_modules' ]
+567 info linkStuff underscore@1.5.2
+568 verbose linkBins underscore@1.5.2
+569 verbose linkMans underscore@1.5.2
+570 verbose rebuildBundles underscore@1.5.2
+571 info install underscore@1.5.2
+572 info postinstall underscore@1.5.2
+573 silly lockFile 881125b7-ules-brasslet-node-modules-async tar:///usr/local/lib/node_modules/brasslet/node_modules/async
+574 silly lockFile 881125b7-ules-brasslet-node-modules-async tar:///usr/local/lib/node_modules/brasslet/node_modules/async
+575 silly lockFile 3783ba22-aig-npm-async-0-2-10-package-tgz tar:///Users/craig/.npm/async/0.2.10/package.tgz
+576 silly lockFile 3783ba22-aig-npm-async-0-2-10-package-tgz tar:///Users/craig/.npm/async/0.2.10/package.tgz
+577 info preinstall async@0.2.10
+578 verbose readDependencies using package.json deps
+579 verbose readDependencies using package.json deps
+580 silly resolved []
+581 verbose about to build /usr/local/lib/node_modules/brasslet/node_modules/async
+582 info build /usr/local/lib/node_modules/brasslet/node_modules/async
+583 verbose linkStuff [ false,
+583 verbose linkStuff   false,
+583 verbose linkStuff   false,
+583 verbose linkStuff   '/usr/local/lib/node_modules/brasslet/node_modules' ]
+584 info linkStuff async@0.2.10
+585 verbose linkBins async@0.2.10
+586 verbose linkMans async@0.2.10
+587 verbose rebuildBundles async@0.2.10
+588 info install async@0.2.10
+589 info postinstall async@0.2.10
+590 silly lockFile 16820ed6-dules-brasslet-node-modules-sift tar:///usr/local/lib/node_modules/brasslet/node_modules/sift
+591 silly lockFile 16820ed6-dules-brasslet-node-modules-sift tar:///usr/local/lib/node_modules/brasslet/node_modules/sift
+592 silly lockFile 435a8de7-raig-npm-sift-0-0-12-package-tgz tar:///Users/craig/.npm/sift/0.0.12/package.tgz
+593 silly lockFile 435a8de7-raig-npm-sift-0-0-12-package-tgz tar:///Users/craig/.npm/sift/0.0.12/package.tgz
+594 info preinstall sift@0.0.12
+595 verbose readDependencies using package.json deps
+596 verbose readDependencies using package.json deps
+597 silly resolved []
+598 verbose about to build /usr/local/lib/node_modules/brasslet/node_modules/sift
+599 info build /usr/local/lib/node_modules/brasslet/node_modules/sift
+600 verbose linkStuff [ false,
+600 verbose linkStuff   false,
+600 verbose linkStuff   false,
+600 verbose linkStuff   '/usr/local/lib/node_modules/brasslet/node_modules' ]
+601 info linkStuff sift@0.0.12
+602 verbose linkBins sift@0.0.12
+603 verbose linkMans sift@0.0.12
+604 verbose rebuildBundles sift@0.0.12
+605 info install sift@0.0.12
+606 info postinstall sift@0.0.12
+607 http 304 http://registry.npmjs.org/hurryup
+608 silly registry.get cb [ 304,
+608 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+608 silly registry.get     etag: '"6YFQJXCNQGX54X73H73W2Y4VD"',
+608 silly registry.get     'content-length': '0',
+608 silly registry.get     'accept-ranges': 'bytes',
+608 silly registry.get     via: '1.1 varnish',
+608 silly registry.get     age: '0',
+608 silly registry.get     'cache-control': 'max-age=1',
+608 silly registry.get     date: 'Wed, 12 Feb 2014 00:49:05 GMT',
+608 silly registry.get     connection: 'keep-alive',
+608 silly registry.get     'x-served-by': 'cache-v41-ASH, cache-lax1420-LAX',
+608 silly registry.get     'x-cache': 'MISS, MISS',
+608 silly registry.get     'x-cache-hits': '0, 0',
+608 silly registry.get     'x-timer': 'S1392166145.577901840,VS0,VS41,VE121,VE152' } ]
+609 verbose etag hurryup from cache
+610 silly addNameRange number 2 { name: 'hurryup', range: '>=0.0.0-0 <0.1.0-0', hasData: true }
+611 silly addNameRange versions [ 'hurryup', [ '0.0.0', '0.0.1', '0.0.2' ] ]
+612 verbose addNamed [ 'hurryup', '0.0.2' ]
+613 verbose addNamed [ '0.0.2', '0.0.2' ]
+614 silly lockFile f5bd2487-hurryup-0-0-2 hurryup@0.0.2
+615 verbose lock hurryup@0.0.2 /Users/craig/.npm/f5bd2487-hurryup-0-0-2.lock
+616 silly lockFile f5bd2487-hurryup-0-0-2 hurryup@0.0.2
+617 silly lockFile f5bd2487-hurryup-0-0-2 hurryup@0.0.2
+618 silly lockFile da2b328d-hurryup-0-0-x hurryup@0.0.x
+619 silly lockFile da2b328d-hurryup-0-0-x hurryup@0.0.x
+620 silly resolved [ { name: 'hurryup',
+620 silly resolved     version: '0.0.2',
+620 silly resolved     description: 'hurryUp.js ==========',
+620 silly resolved     main: './lib/index.js',
+620 silly resolved     scripts: { test: 'mocha --reporter min' },
+620 silly resolved     repository: { type: 'git', url: 'git://github.com/crcn/hurryUp.js.git' },
+620 silly resolved     author: '',
+620 silly resolved     license: 'BSD',
+620 silly resolved     readmeFilename: 'README.md',
+620 silly resolved     dependencies: { comerr: '0.0.x' },
+620 silly resolved     devDependencies: { 'expect.js': '0.2.x', mocha: '1.8.x' },
+620 silly resolved     readme: 'hurryUp.js\n==========\n\ntimeout library for callbacks\n\n\n## API\n\n### hurryUp(timedCallback, optionsOrTimeout, ...args)\n\n- `optionsOrTimeout` \n  - `object` - options passed\n    - `retry` - TRUE if the timedCallback should be re-called if it returns an error\n    - `retryTimeout` - timeout between retrying timed callback\n    - `timeout` - kill timeout\n  - `number` - the timeout before killing the function call\n\n```javascript\nhurryUp(function(next) {\n  \n  //this will cause an error\n  setTimeout(next, 2000);\n}, 1000).call(null, function(err, result) {\n  console.error("timeout has occurred!")\n})\n```\n\nHere\'s an easier way to wrap around a method:\n\n```javascript\nhurryUp(emitter.once, 1000).call(emitter, "connected", function(err, result) {\n  \n});\n```\n\n\nYou can also use hurryup to run a callback multiple times until it succeeds, like so:\n\n```javascript\n\nfunction isItReady(next) {\n  //async stuff here\n  next(new Error("no!"));\n}\n\nhurryUp(function(next) {\n  isItReady(next);\n}, { retry: true }).call(null, function(err) {\n  console.log(err.message); //no!\n});\n```\n',
+620 silly resolved     bugs: { url: 'https://github.com/crcn/hurryUp.js/issues' },
+620 silly resolved     _id: 'hurryup@0.0.2',
+620 silly resolved     _from: 'hurryup@0.0.x' } ]
+621 info install hurryup@0.0.2 into /usr/local/lib/node_modules/brasslet/node_modules/tq
+622 info installOne hurryup@0.0.2
+623 info /usr/local/lib/node_modules/brasslet/node_modules/tq/node_modules/hurryup unbuild
+624 verbose tar unpack /Users/craig/.npm/hurryup/0.0.2/package.tgz
+625 silly lockFile b371914b--modules-tq-node-modules-hurryup tar:///usr/local/lib/node_modules/brasslet/node_modules/tq/node_modules/hurryup
+626 verbose lock tar:///usr/local/lib/node_modules/brasslet/node_modules/tq/node_modules/hurryup /Users/craig/.npm/b371914b--modules-tq-node-modules-hurryup.lock
+627 silly lockFile acb6370e-ig-npm-hurryup-0-0-2-package-tgz tar:///Users/craig/.npm/hurryup/0.0.2/package.tgz
+628 verbose lock tar:///Users/craig/.npm/hurryup/0.0.2/package.tgz /Users/craig/.npm/acb6370e-ig-npm-hurryup-0-0-2-package-tgz.lock
+629 silly gunzTarPerm modes [ '755', '644' ]
+630 silly gunzTarPerm extractEntry package.json
+631 silly gunzTarPerm extractEntry .npmignore
+632 silly gunzTarPerm extractEntry README.md
+633 silly gunzTarPerm extractEntry .cupboard
+634 silly gunzTarPerm extractEntry examples/ex1.js
+635 silly gunzTarPerm extractEntry lib/index.js
+636 silly gunzTarPerm extractEntry test/hurryup-test.js
+637 silly lockFile b371914b--modules-tq-node-modules-hurryup tar:///usr/local/lib/node_modules/brasslet/node_modules/tq/node_modules/hurryup
+638 silly lockFile b371914b--modules-tq-node-modules-hurryup tar:///usr/local/lib/node_modules/brasslet/node_modules/tq/node_modules/hurryup
+639 silly lockFile acb6370e-ig-npm-hurryup-0-0-2-package-tgz tar:///Users/craig/.npm/hurryup/0.0.2/package.tgz
+640 silly lockFile acb6370e-ig-npm-hurryup-0-0-2-package-tgz tar:///Users/craig/.npm/hurryup/0.0.2/package.tgz
+641 info preinstall hurryup@0.0.2
+642 verbose readDependencies using package.json deps
+643 verbose readDependencies using package.json deps
+644 verbose cache add [ 'comerr@0.0.x', null ]
+645 verbose cache add name=undefined spec="comerr@0.0.x" args=["comerr@0.0.x",null]
+646 verbose parsed url { protocol: null,
+646 verbose parsed url   slashes: null,
+646 verbose parsed url   auth: null,
+646 verbose parsed url   host: null,
+646 verbose parsed url   port: null,
+646 verbose parsed url   hostname: null,
+646 verbose parsed url   hash: null,
+646 verbose parsed url   search: null,
+646 verbose parsed url   query: null,
+646 verbose parsed url   pathname: 'comerr@0.0.x',
+646 verbose parsed url   path: 'comerr@0.0.x',
+646 verbose parsed url   href: 'comerr@0.0.x' }
+647 verbose cache add name="comerr" spec="0.0.x" args=["comerr","0.0.x"]
+648 verbose parsed url { protocol: null,
+648 verbose parsed url   slashes: null,
+648 verbose parsed url   auth: null,
+648 verbose parsed url   host: null,
+648 verbose parsed url   port: null,
+648 verbose parsed url   hostname: null,
+648 verbose parsed url   hash: null,
+648 verbose parsed url   search: null,
+648 verbose parsed url   query: null,
+648 verbose parsed url   pathname: '0.0.x',
+648 verbose parsed url   path: '0.0.x',
+648 verbose parsed url   href: '0.0.x' }
+649 verbose addNamed [ 'comerr', '0.0.x' ]
+650 verbose addNamed [ null, '>=0.0.0-0 <0.1.0-0' ]
+651 silly lockFile bccfe1cf-comerr-0-0-x comerr@0.0.x
+652 verbose lock comerr@0.0.x /Users/craig/.npm/bccfe1cf-comerr-0-0-x.lock
+653 silly addNameRange { name: 'comerr', range: '>=0.0.0-0 <0.1.0-0', hasData: false }
+654 verbose url raw comerr
+655 verbose url resolving [ 'http://registry.npmjs.org/', './comerr' ]
+656 verbose url resolved http://registry.npmjs.org/comerr
+657 info trying registry request attempt 1 at 16:49:05
+658 verbose etag "9GFHSM9CJKL10XLUK6E9SBE98"
+659 http GET http://registry.npmjs.org/comerr
+660 http 304 http://registry.npmjs.org/comerr
+661 silly registry.get cb [ 304,
+661 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+661 silly registry.get     etag: '"9GFHSM9CJKL10XLUK6E9SBE98"',
+661 silly registry.get     'content-length': '0',
+661 silly registry.get     'accept-ranges': 'bytes',
+661 silly registry.get     via: '1.1 varnish',
+661 silly registry.get     age: '0',
+661 silly registry.get     'cache-control': 'max-age=1',
+661 silly registry.get     date: 'Wed, 12 Feb 2014 00:49:05 GMT',
+661 silly registry.get     connection: 'keep-alive',
+661 silly registry.get     'x-served-by': 'cache-v37-ASH, cache-lax1435-LAX',
+661 silly registry.get     'x-cache': 'MISS, MISS',
+661 silly registry.get     'x-cache-hits': '0, 0',
+661 silly registry.get     'x-timer': 'S1392166145.831325054,VS0,VS43,VE119,VE148' } ]
+662 verbose etag comerr from cache
+663 silly addNameRange number 2 { name: 'comerr', range: '>=0.0.0-0 <0.1.0-0', hasData: true }
+664 silly addNameRange versions [ 'comerr',
+664 silly addNameRange   [ '0.0.0', '0.0.2', '0.0.3', '0.0.4', '0.0.5', '0.0.6' ] ]
+665 verbose addNamed [ 'comerr', '0.0.6' ]
+666 verbose addNamed [ '0.0.6', '0.0.6' ]
+667 silly lockFile 7b90c7da-comerr-0-0-6 comerr@0.0.6
+668 verbose lock comerr@0.0.6 /Users/craig/.npm/7b90c7da-comerr-0-0-6.lock
+669 silly lockFile 7b90c7da-comerr-0-0-6 comerr@0.0.6
+670 silly lockFile 7b90c7da-comerr-0-0-6 comerr@0.0.6
+671 silly lockFile bccfe1cf-comerr-0-0-x comerr@0.0.x
+672 silly lockFile bccfe1cf-comerr-0-0-x comerr@0.0.x
+673 silly resolved [ { name: 'comerr',
+673 silly resolved     version: '0.0.6',
+673 silly resolved     description: 'ERROR: No README.md file found!',
+673 silly resolved     main: 'lib/index.js',
+673 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+673 silly resolved     repository: { type: 'git', url: 'git://github.com/crcn/errcodes.js.git' },
+673 silly resolved     author: '',
+673 silly resolved     license: 'BSD',
+673 silly resolved     bugs: { url: 'https://github.com/crcn/errcodes.js/issues' },
+673 silly resolved     readme: 'ERROR: No README data found!',
+673 silly resolved     _id: 'comerr@0.0.6',
+673 silly resolved     _from: 'comerr@0.0.x' } ]
+674 info install comerr@0.0.6 into /usr/local/lib/node_modules/brasslet/node_modules/tq/node_modules/hurryup
+675 info installOne comerr@0.0.6
+676 info /usr/local/lib/node_modules/brasslet/node_modules/tq/node_modules/hurryup/node_modules/comerr unbuild
+677 verbose tar unpack /Users/craig/.npm/comerr/0.0.6/package.tgz
+678 silly lockFile 6532ee66-ules-hurryup-node-modules-comerr tar:///usr/local/lib/node_modules/brasslet/node_modules/tq/node_modules/hurryup/node_modules/comerr
+679 verbose lock tar:///usr/local/lib/node_modules/brasslet/node_modules/tq/node_modules/hurryup/node_modules/comerr /Users/craig/.npm/6532ee66-ules-hurryup-node-modules-comerr.lock
+680 silly lockFile 26077b10-aig-npm-comerr-0-0-6-package-tgz tar:///Users/craig/.npm/comerr/0.0.6/package.tgz
+681 verbose lock tar:///Users/craig/.npm/comerr/0.0.6/package.tgz /Users/craig/.npm/26077b10-aig-npm-comerr-0-0-6-package-tgz.lock
+682 silly gunzTarPerm modes [ '755', '644' ]
+683 silly gunzTarPerm extractEntry package.json
+684 silly gunzTarPerm extractEntry .cupboard
+685 silly gunzTarPerm extractEntry lib/index.js
+686 silly lockFile 6532ee66-ules-hurryup-node-modules-comerr tar:///usr/local/lib/node_modules/brasslet/node_modules/tq/node_modules/hurryup/node_modules/comerr
+687 silly lockFile 6532ee66-ules-hurryup-node-modules-comerr tar:///usr/local/lib/node_modules/brasslet/node_modules/tq/node_modules/hurryup/node_modules/comerr
+688 silly lockFile 26077b10-aig-npm-comerr-0-0-6-package-tgz tar:///Users/craig/.npm/comerr/0.0.6/package.tgz
+689 silly lockFile 26077b10-aig-npm-comerr-0-0-6-package-tgz tar:///Users/craig/.npm/comerr/0.0.6/package.tgz
+690 info preinstall comerr@0.0.6
+691 verbose readDependencies using package.json deps
+692 verbose readDependencies using package.json deps
+693 silly resolved []
+694 verbose about to build /usr/local/lib/node_modules/brasslet/node_modules/tq/node_modules/hurryup/node_modules/comerr
+695 info build /usr/local/lib/node_modules/brasslet/node_modules/tq/node_modules/hurryup/node_modules/comerr
+696 verbose linkStuff [ false,
+696 verbose linkStuff   false,
+696 verbose linkStuff   false,
+696 verbose linkStuff   '/usr/local/lib/node_modules/brasslet/node_modules/tq/node_modules/hurryup/node_modules' ]
+697 info linkStuff comerr@0.0.6
+698 verbose linkBins comerr@0.0.6
+699 verbose linkMans comerr@0.0.6
+700 verbose rebuildBundles comerr@0.0.6
+701 info install comerr@0.0.6
+702 info postinstall comerr@0.0.6
+703 verbose about to build /usr/local/lib/node_modules/brasslet/node_modules/tq/node_modules/hurryup
+704 info build /usr/local/lib/node_modules/brasslet/node_modules/tq/node_modules/hurryup
+705 verbose linkStuff [ false,
+705 verbose linkStuff   false,
+705 verbose linkStuff   false,
+705 verbose linkStuff   '/usr/local/lib/node_modules/brasslet/node_modules/tq/node_modules' ]
+706 info linkStuff hurryup@0.0.2
+707 verbose linkBins hurryup@0.0.2
+708 verbose linkMans hurryup@0.0.2
+709 verbose rebuildBundles hurryup@0.0.2
+710 verbose rebuildBundles [ 'comerr' ]
+711 info install hurryup@0.0.2
+712 info postinstall hurryup@0.0.2
+713 verbose about to build /usr/local/lib/node_modules/brasslet/node_modules/tq
+714 info build /usr/local/lib/node_modules/brasslet/node_modules/tq
+715 verbose linkStuff [ false,
+715 verbose linkStuff   false,
+715 verbose linkStuff   false,
+715 verbose linkStuff   '/usr/local/lib/node_modules/brasslet/node_modules' ]
+716 info linkStuff tq@0.2.5
+717 verbose linkBins tq@0.2.5
+718 verbose linkMans tq@0.2.5
+719 verbose rebuildBundles tq@0.2.5
+720 verbose rebuildBundles [ 'hurryup' ]
+721 info install tq@0.2.5
+722 info postinstall tq@0.2.5
+723 verbose about to build /usr/local/lib/node_modules/brasslet
+724 info build /usr/local/lib/node_modules/brasslet
+725 verbose linkStuff [ false, false, false, '/usr/local/lib/node_modules' ]
+726 info linkStuff brasslet@0.0.17
+727 verbose linkBins brasslet@0.0.17
+728 verbose linkMans brasslet@0.0.17
+729 verbose rebuildBundles brasslet@0.0.17
+730 verbose rebuildBundles [ 'async',
+730 verbose rebuildBundles   'flatstack',
+730 verbose rebuildBundles   'flatten',
+730 verbose rebuildBundles   'sift',
+730 verbose rebuildBundles   'toarray',
+730 verbose rebuildBundles   'tq',
+730 verbose rebuildBundles   'type-component',
+730 verbose rebuildBundles   'underscore' ]
+731 info install brasslet@0.0.17
+732 info postinstall brasslet@0.0.17
+733 warn unmet dependency /usr/local/lib/node_modules/bindable-model/node_modules/bindable-decor requires bindable@'0.4.x' but will load
+733 warn unmet dependency /usr/local/lib/node_modules/bindable,
+733 warn unmet dependency which is version 0.5.26
+734 warn unmet dependency /usr/local/lib/node_modules/bindable-model/node_modules/bindable-schema requires bindable@'~0.4.2' but will load
+734 warn unmet dependency /usr/local/lib/node_modules/bindable,
+734 warn unmet dependency which is version 0.5.26
+735 warn unmet dependency /usr/local/lib/node_modules/bindable-model/node_modules/bindable-schema/node_modules/funwrap requires bindable@'~0.4.1' but will load
+735 warn unmet dependency /usr/local/lib/node_modules/bindable,
+735 warn unmet dependency which is version 0.5.26
+736 warn unmet dependency /usr/local/lib/node_modules/bindable-model/node_modules/bindable-schema/node_modules/funwrap/node_modules/bindable-call requires bindable@'0.4.x' but will load
+736 warn unmet dependency /usr/local/lib/node_modules/bindable,
+736 warn unmet dependency which is version 0.5.26
+737 warn unmet dependency /usr/local/lib/node_modules/browsertap/node_modules/mojojs requires bindable@'0.4.x' but will load
+737 warn unmet dependency /usr/local/lib/node_modules/bindable,
+737 warn unmet dependency which is version 0.5.26
+738 warn unmet dependency /usr/local/lib/node_modules/browsertap/node_modules/ectwo requires bindable@'0.4.x' but will load
+738 warn unmet dependency /usr/local/lib/node_modules/bindable,
+738 warn unmet dependency which is version 0.5.26
+739 warn unmet dependency /usr/local/lib/node_modules/browsertap/node_modules/cortado requires bindable@'0.4.x' but will load
+739 warn unmet dependency /usr/local/lib/node_modules/bindable,
+739 warn unmet dependency which is version 0.5.26
+740 warn unmet dependency /usr/local/lib/node_modules/browsertap/node_modules/cortado/node_modules/paperclip-component requires bindable@'~0.4.0' but will load
+740 warn unmet dependency /usr/local/lib/node_modules/bindable,
+740 warn unmet dependency which is version 0.5.26
+741 warn unmet dependency /usr/local/lib/node_modules/mediocre/node_modules/bindable-call/node_modules/bindable requires type-component@'0.0.x' but will load
+741 warn unmet dependency undefined,
+741 warn unmet dependency which is version undefined
+742 warn unmet dependency /usr/local/lib/node_modules/mediocre/node_modules/bindable-call/node_modules/bindable requires async@'0.2.x' but will load
+742 warn unmet dependency undefined,
+742 warn unmet dependency which is version undefined
+743 warn unmet dependency /usr/local/lib/node_modules/mediocre/node_modules/bindable-call/node_modules/bindable/node_modules/dref requires type-component@'0.0.x' but will load
+743 warn unmet dependency undefined,
+743 warn unmet dependency which is version undefined
+744 warn unmet dependency /usr/local/lib/node_modules/mediocre/node_modules/bindable-call/node_modules/bindable/node_modules/hoist requires async@'0.2.x' but will load
+744 warn unmet dependency undefined,
+744 warn unmet dependency which is version undefined
+745 warn unmet dependency /usr/local/lib/node_modules/mediocre/node_modules/bindable-call/node_modules/bindable/node_modules/hoist requires type-component@'0.0.x' but will load
+745 warn unmet dependency undefined,
+745 warn unmet dependency which is version undefined
+746 warn unmet dependency /usr/local/lib/node_modules/mediocre/node_modules/bindable-call/node_modules/bindable/node_modules/dref/node_modules/dref requires type-component@'0.0.x' but will load
+746 warn unmet dependency undefined,
+746 warn unmet dependency which is version undefined
+747 warn unmet dependency /usr/local/lib/node_modules/dojo/node_modules/cortado/node_modules/funwrap requires bindable-call@'0.0.x' but will load
+747 warn unmet dependency /usr/local/lib/node_modules/bindable-call,
+747 warn unmet dependency which is version 0.1.0
+748 warn unmet dependency /usr/local/lib/node_modules/npm/node_modules/couch-login requires request@'~2.9.202' but will load
+748 warn unmet dependency /usr/local/lib/node_modules/npm/node_modules/request,
+748 warn unmet dependency which is version 2.27.0
+749 warn unmet dependency /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/glob requires graceful-fs@'~1.1.2' but will load
+749 warn unmet dependency /usr/local/lib/node_modules/npm/node_modules/graceful-fs,
+749 warn unmet dependency which is version 2.0.1
+750 warn unmet dependency /usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/glob requires inherits@'1' but will load
+750 warn unmet dependency /usr/local/lib/node_modules/npm/node_modules/inherits,
+750 warn unmet dependency which is version 2.0.1
+751 warn unmet dependency /usr/local/lib/node_modules/student.classdojo.com/node_modules/mojo-router requires bindable@'0.5.x' but will load
+751 warn unmet dependency /usr/local/lib/node_modules/student.classdojo.com/node_modules/bindable,
+751 warn unmet dependency which is version 0.4.12
+752 warn unmet dependency /usr/local/lib/node_modules/student.classdojo.com/node_modules/bindable-model requires bindable@'0.5.x' but will load
+752 warn unmet dependency /usr/local/lib/node_modules/student.classdojo.com/node_modules/bindable,
+752 warn unmet dependency which is version 0.4.12
+753 error peerinvalid The package requirejs does not satisfy its siblings' peerDependencies requirements!
+753 error peerinvalid Peer karma-requirejs@0.2.0 wants requirejs@~2.1
+754 error System Darwin 13.0.0
+755 error command "node" "/usr/local/bin/npm" "link" "brasslet"
+756 error cwd /Users/craig/Developer/Public/node-awsm
+757 error node -v v0.10.21
+758 error npm -v 1.3.11
+759 error code EPEERINVALID
+760 verbose exit [ 1, true ]
