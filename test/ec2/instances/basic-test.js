@@ -49,8 +49,11 @@ describe("ec2/instances#", function () {
 
   it("can create an instance with a keypair", function (next) {
     region.instances.create({ type: "t1.micro", imageId: helpers.images.ubuntu._id, keyPair: keyPair }, outcome.e(next).s(function (model) {
-      console.log(JSON.stringify(model.get("source"), null, 2));
-      model.destroy(next);
+      expect(model.get("keyName")).to.be("test-keypair");
+      model.getKeyPair(outcome.e(next).s(function (keyPair) {
+        expect(keyPair.get("name")).to.be("test-keypair");
+        model.destroy(next);
+      }));
     }));
   })
 

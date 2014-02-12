@@ -154,6 +154,10 @@ returns the allocated address assigned to the specific instance
 
 returns the image used to create the instance
 
+#### instance.getKeyPair(callback)
+
+returns the keypair assigned to the instance
+
 #### instance.destroy(callback)
 
 destroys the instance
@@ -164,7 +168,113 @@ destroys the instance
 
 creates a new image
 
-TODO
+#### image.createInstance(options, next)
+
+creates a new instance from the image
+
+#### image.migrate(regions, next)
+
+migrates the image to another region
+
+#### image.destroy(callback)
+
+destroys the image
+
+## EC2 Addresses
+
+#### region.addresses.create(options, callback)
+
+allocates a new address
+
+#### address.attach(instance, callback)
+
+associates an address with an instance
+
+#### address.detach(instance, callback)
+
+detaches from an instance
+
+#### address.getInstance(callback)
+
+returns the instance associated with the address
+
+#### address.destroy(callback)
+
+releases the address
+
+## EC2 Volumes
+
+#### region.volumes.create(options, callback)
+
+creates a new volume
+
+#### volume.attach(instance, callback)
+
+attaches to an instance
+
+#### volume.detach(callback)
+
+detaches from an instance
+
+#### volume.getInstances(instance, callback)
+
+returns all the instances this volume is attached to
+
+#### volume.createSnapshot([description, ]callback)
+
+creates a new snapshot of the volume
+
+#### volume.destroy(callback)
+
+destroys the volume
+
+## EC2 Snapshots
+
+#### region.snapshots.create(options, callback)
+
+creates a snapshot
+
+#### snapshot.createVolume(options, callback)
+
+creates a volume out of the snapshot
+
+#### snapshot.getVolume(callback)
+
+returns the snapshot associated with the given volume
+
+#### snapshot.destroy(callback)
+
+destroys the snapshot
+
+## EC2 Key Pairs
+
+#### region.keyPairs.create(options, callback)
+
+creates a new keypair
+
+#### keyPair.destroy(callback)
+
+destroys the keypair
+
+## EC2 Security Groups
+
+#### region.securityGroups.create(options, callback)
+
+creates a security group
+
+#### securityGroup.authorize(port, callback)
+
+authorizes a port in the security group
+
+#### securityGroup.revoke(port, callback)
+
+revokes port 
+
+#### securityGroup.destroy(callback)
+
+destroys the security group.
+
+
 
 
 

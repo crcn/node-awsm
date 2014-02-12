@@ -34,7 +34,7 @@ describe("ec2/addresses#", function () {
   });
 
   it("can be associated with an instance", function (next) {
-    address.associate(instance, outcome.e(next).s(function (address) {
+    address.attach(instance, outcome.e(next).s(function (address) {
       instance.getAddress(function (err, address2) {
         expect(address.get("_id")).to.be(address2.get("_id"));
         address.getInstance(function (err, instance2) {
