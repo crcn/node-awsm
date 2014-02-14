@@ -29,7 +29,9 @@
     "async": "~0.2.10",
     "underscore": "~1.5.2",
     "memoizee": "~0.2.6",
-    "traverse": "~0.6.6"
+    "traverse": "~0.6.6",
+    "dsync": "0.0.2",
+    "burrito": "~0.2.12"
   },
   "devDependencies": {
     "expect.js": "~0.2.0",
