@@ -57,8 +57,8 @@ Want a command line interface? This is not the repository you're looking for. Ch
 
 ## Plugins
 
-- [/crcn/node-awsm-keypair-save](awsm-keypair-save) - allows you to save keypairs locally immediately after creating them.
-- [/crcn/node-awsm-ssh](awsm-ssh) - super nice utility that allows you to ssh, execute scripts, and rsync files on your EC2 instances. 
+- [awsm-keypair-save](/crcn/node-awsm-keypair-save) - allows you to save keypairs locally immediately after creating them.
+- [awsm-ssh](/crcn/node-awsm-ssh) - super nice utility that allows you to ssh, execute scripts, and rsync files on your EC2 instances. 
 
 
 
