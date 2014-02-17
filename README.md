@@ -53,7 +53,7 @@ awsc.
   });
 ```
 
-Want a command line interface? This is not the repository you're looking for. Check out [awsm-cli](/crcn/node-awsm-cli).
+Want a command line interface? This is not the repository you're looking for. Checkout [awsm-cli](/crcn/node-awsm-cli).
 
 
 ## Plugins
