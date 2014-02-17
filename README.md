@@ -83,7 +83,7 @@ Resource collections share a common API, and are used for every object type whic
 
 #### collection.find(query, callback)
 
-Finds many resources against the target collection.
+Finds many resources in the target collection.
 
 ```javascript
 
