@@ -39,7 +39,6 @@ awsc.
   // let's copy some files locally
   rsync("~/Developer/applications/my-mega-awesome-application", "/remote/app/directory").
   
-  // let's execute the next task all at the same time
   parallel().
   
   // let's start this sucker.
