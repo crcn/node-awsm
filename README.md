@@ -1,4 +1,6 @@
-Awsm gives you a mongodb-like interface for controlling AWS. Here's how:
+### Awsm gives you a mongodb-like interface for controlling AWS. 
+
+Here's how:
 
 ```javascript
 var aws = require("awsm")(require("./awsConfig")).chain();
