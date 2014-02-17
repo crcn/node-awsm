@@ -13,7 +13,7 @@ aws.regions().all().createInstance({ type: "m3.medium", imageId: "ami-a73264ce" 
 How about migrating a pre-existing image? Easy:
 
 ```javascript
-aws.regions.all(function (err, regions) {
+aws.regions().all(function (err, regions) {
   aws.images().find({ "tags.type": "my-awesome-application" }).migrate(regions).then(function (err, images) {
   
     // should be roughly ~ 7 images that have been migrated to every
@@ -22,8 +22,6 @@ aws.regions.all(function (err, regions) {
   });
 });
 ```
-
-
 
 ## Node API
 
