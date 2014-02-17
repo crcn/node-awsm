@@ -1,4 +1,28 @@
-Awsm provides a mongodb-like interface for controlling various AWS services such as `ec2`, `route53`, and `cloudfront`.
+Awsm gives you a mongodb-like interface for controlling AWS. Here's how:
+
+```javascript
+var aws = require("awsm")(require("./awsConfig")).chain();
+
+// let's go ahead and provision a few ubuntu instances around the globe.
+aws.regions().all().createInstance({ type: "m3.medium", imageId: "ami-a73264ce" }).start().then(function (err, instances) {
+  
+});
+
+```
+
+How about migrating a pre-existing image? Easy:
+
+```javascript
+aws.regions.all(function (err, regions) {
+  aws.images().find({ "tags.type": "my-awesome-application" }).migrate(regions).then(function (err, images) {
+  
+    // should be roughly ~ 7 images that have been migrated to every
+    // AWS region. 
+    console.log(images);
+  });
+});
+```
+
 
 
 ## Node API
