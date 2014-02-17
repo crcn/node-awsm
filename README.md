@@ -5,7 +5,7 @@ var aws = require("awsm")(require("./awsConfig")).chain();
 
 // let's go ahead and provision a few ubuntu instances around the globe.
 aws.regions().all().createInstance({ type: "m3.medium", imageId: "ami-a73264ce" }).start().then(function (err, instances) {
-  
+  console.log(instances);
 });
 
 ```
@@ -22,6 +22,41 @@ aws.regions().all(function (err, regions) {
   });
 });
 ```
+
+Awsm is also extendable. Want to add SSH? No problem:
+
+```javascript
+var aws = require("awsm")(require("./awsConfig"));
+aws.use(require("awsm-ssh");
+var awsc = aws.chain();
+
+awsc.
+  instances().
+  
+  // find all servers in the staging environment
+  find({ "tags.env": "staging", "tags.type": "my-mega-awesome-application" }).
+  
+  // let's copy some files locally
+  rsync("~/Developer/applications/my-mega-awesome-application", "/remote/app/directory").
+  
+  // let's execute the next task all at the same time
+  parallel().
+  
+  // let's start this sucker.
+  exec("node /remote/app/directory").
+  
+  // after the process closes - this will never happen since exec (above) won't close. Have
+  // you taken a look at node-awsm-cli? 
+  then(function (err, instances) {
+    // donezo.
+  });
+```
+
+
+
+## Plugins
+
+
 
 ## Node API
 
