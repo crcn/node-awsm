@@ -36,7 +36,7 @@ awsc.
   // find all servers in the staging environment
   find({ "tags.env": "staging", "tags.type": "my-mega-awesome-application" }).
   
-  // let's copy some files locally
+  // let's copy some local files to all mega awesome applications.
   rsync("~/Developer/applications/my-mega-awesome-application", "/remote/app/directory").
   
   parallel().
