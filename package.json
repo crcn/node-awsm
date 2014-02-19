@@ -1,6 +1,6 @@
 {
   "name": "awsm",
-  "version": "0.0.40",
+  "version": "0.0.41",
   "description": "node-awsm =========",
   "main": "./lib/index.js",
   "scripts": {
@@ -31,7 +31,8 @@
     "memoizee": "~0.2.6",
     "traverse": "~0.6.6",
     "dsync": "0.0.2",
-    "burrito": "~0.2.12"
+    "burrito": "~0.2.12",
+    "flatten": "0.0.1"
   },
   "devDependencies": {
     "expect.js": "~0.2.0",
