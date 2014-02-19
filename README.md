@@ -1,4 +1,66 @@
-Awsm provides a mongodb-like interface for controlling various AWS services such as `ec2`, `route53`, and `cloudfront`.
+### Awsm gives you a mongodb-like interface for controlling AWS. 
+
+Here's how:
+
+```javascript
+var aws = require("awsm")(require("./awsConfig")).chain();
+
+// let's go ahead and provision a few ubuntu instances around the globe.
+aws.regions().all().createInstance({ type: "m3.medium", imageId: "ami-a73264ce" }).start().then(function (err, instances) {
+  console.log(instances);
+});
+
+```
+
+How about migrating a pre-existing image? Easy:
+
+```javascript
+aws.regions().all(function (err, regions) {
+  aws.images().find({ "tags.type": "my-awesome-application" }).migrate(regions).then(function (err, images) {
+  
+    // should be roughly ~ 7 images that have been migrated to every
+    // AWS region. 
+    console.log(images);
+  });
+});
+```
+
+Awsm is also extendable. Want to add SSH? No problem:
+
+```javascript
+var aws = require("awsm")(require("./awsConfig"));
+aws.use(require("awsm-ssh");
+var awsc = aws.chain();
+
+awsc.
+  instances().
+  
+  // find all servers in the staging environment
+  find({ "tags.env": "staging", "tags.type": "my-mega-awesome-application" }).
+  
+  // let's copy some local files to all mega awesome applications.
+  rsync("~/Developer/applications/my-mega-awesome-application", "/remote/app/directory").
+  
+  parallel().
+  
+  // let's start this sucker.
+  exec("node /remote/app/directory").
+  
+  // after the process closes - this will never happen since exec (above) won't close. Have
+  // you taken a look at node-awsm-cli? 
+  then(function (err, instances) {
+    // donezo.
+  });
+```
+
+Want a command line interface? This is not the repository you're looking for. Checkout [awsm-cli](/crcn/node-awsm-cli).
+
+
+## Plugins
+
+- [awsm-keypair-save](/crcn/node-awsm-keypair-save) - allows you to save keypairs locally immediately after creating them.
+- [awsm-ssh](/crcn/node-awsm-ssh) - super nice utility that allows you to ssh, execute scripts, and rsync files on your EC2 instances. 
+
 
 
 ## Node API
@@ -21,7 +83,7 @@ Resource collections share a common API, and are used for every object type whic
 
 #### collection.find(query, callback)
 
-Finds many resources against the target collection.
+Finds many resources in the target collection.
 
 ```javascript
 
@@ -281,6 +343,10 @@ revokes port
 #### securityGroup.destroy(callback)
 
 destroys the security group.
+
+## Chaining
+
+TODO - Checkout the examples at the top.
 
 
 
