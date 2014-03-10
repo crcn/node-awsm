@@ -1,6 +1,6 @@
 {
   "name": "awsm",
-  "version": "0.0.42",
+  "version": "0.0.43",
   "description": "node-awsm =========",
   "main": "./lib/index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "sift": "0.0.12",
     "comerr": "0.0.x",
     "colors": "~0.6.2",
-    "aws-sdk": "2.0.x",
+    "aws-sdk": "2.0.0-rc9",
     "hurryup": "0.0.x",
     "brasslet": "0.0.x",
     "async": "~0.2.10",
