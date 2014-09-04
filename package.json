@@ -20,7 +20,7 @@
     "bindable": "0.5.x",
     "toarray": "0.0.x",
     "outcome": "0.0.x",
-    "sift": "0.0.12",
+    "sift": "0.0.x",
     "comerr": "0.0.x",
     "colors": "~0.6.2",
     "aws-sdk": "2.0.0-rc9",
