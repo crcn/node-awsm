@@ -1,4 +1,6 @@
-### Awsm gives you a mongodb-like interface for controlling AWS. This project is currently alpha-ish.
+*Note: This project is currently alpha-ish.*
+
+### Awsm gives you a mongodb-like interface for controlling AWS.
 
 Here's how:
 
