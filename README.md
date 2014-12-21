@@ -55,13 +55,13 @@ awsc.
   });
 ```
 
-Want a command line interface? This is not the repository you're looking for. Checkout [awsm-cli](/crcn/node-awsm-cli).
+Want a command line interface? This is not the repository you're looking for. Checkout [awsm-cli](https://github.com/crcn/node-awsm-cli).
 
 
 ## Plugins
 
-- [awsm-keypair-save](/crcn/node-awsm-keypair-save) - allows you to save keypairs locally immediately after creating them.
-- [awsm-ssh](/crcn/node-awsm-ssh) - super nice utility that allows you to ssh, execute scripts, and rsync files on your EC2 instances. 
+- [awsm-keypair-save](https://github.com/crcn/node-awsm-keypair-save) - allows you to save keypairs locally immediately after creating them.
+- [awsm-ssh](https://github.com/crcn/node-awsm-ssh) - super nice utility that allows you to ssh, execute scripts, and rsync files on your EC2 instances. 
 
 
 
